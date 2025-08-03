@@ -1,0 +1,33 @@
+2025-08-03 08:45:47,552 - INFO - Starting Flight Booking Confirmation Automation
+2025-08-03 08:45:47,552 - INFO - Initial memory usage: 71.70 MB
+2025-08-03 08:45:47,552 - INFO - Loading data from data/reservations.csv
+2025-08-03 08:45:47,558 - INFO - Loaded 205 reservation records
+2025-08-03 08:45:47,558 - INFO - Validating 205 reservations
+2025-08-03 08:45:47,580 - INFO - Found 21 validation errors
+2025-08-03 08:45:47,580 - WARNING - Bug: Invalid records are not being filtered out!
+2025-08-03 08:45:47,583 - INFO - Processing reservations (inefficient method)
+2025-08-03 08:45:47,730 - ERROR - Error processing record 11: could not convert string to float: '$697.06'
+2025-08-03 08:45:48,308 - ERROR - Error processing record 59: could not convert string to float: '$2150.65'
+2025-08-03 08:45:48,786 - ERROR - Error processing record 98: could not convert string to float: '$916.53'
+2025-08-03 08:45:48,860 - ERROR - Error processing record 105: could not convert string to float: '$701.94'
+2025-08-03 08:45:49,358 - ERROR - Error processing record 146: could not convert string to float: '$2097.46'
+2025-08-03 08:45:49,637 - WARNING - Same origin and destination for PNR PT012N
+2025-08-03 08:45:50,009 - ERROR - Error processing record 198: could not convert string to float: '$1179.57'
+2025-08-03 08:45:50,049 - WARNING - Same origin and destination for PNR SH712Q
+2025-08-03 08:45:50,091 - INFO - Processed 199 valid reservations
+2025-08-03 08:45:50,091 - INFO - Sending confirmations for 199 reservations
+2025-08-03 08:45:59,690 - ERROR - Failed to send confirmation for PNR CG564S: RetryError[<Future at 0x111a3f560 state=finished raised Exception>]
+2025-08-03 08:46:29,370 - ERROR - Failed to send confirmation for PNR ZS491Z: RetryError[<Future at 0x111a79580 state=finished raised Exception>]
+2025-08-03 08:47:59,671 - ERROR - Failed to send confirmation for PNR ZK721D: RetryError[<Future at 0x111a791f0 state=finished raised Exception>]
+2025-08-03 08:50:37,326 - ERROR - Failed to send confirmation for PNR FX984V: RetryError[<Future at 0x111a79c70 state=finished raised Exception>]
+2025-08-03 08:51:21,745 - INFO - Completed email sending: 195 sent, 4 failed
+2025-08-03 08:51:21,746 - INFO - Generating summary report
+2025-08-03 08:51:21,760 - INFO - Saving report to reports/flight_automation_report.csv
+2025-08-03 08:51:21,766 - INFO - Report saved to reports/flight_automation_report.csv and reports/flight_automation_report.json
+2025-08-03 08:51:21,766 - INFO - === AUTOMATION COMPLETED ===
+2025-08-03 08:51:21,767 - INFO - Total runtime: 334.22 seconds
+2025-08-03 08:51:21,767 - INFO - Peak memory usage: 44.59 MB
+2025-08-03 08:51:21,767 - INFO - Memory increase: -27.11 MB
+2025-08-03 08:51:21,767 - INFO - Records processed: 199
+2025-08-03 08:51:21,767 - INFO - Confirmations sent: 195
+2025-08-03 08:51:21,772 - INFO - Profiling data saved to automation_profile.prof
