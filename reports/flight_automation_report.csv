@@ -1,8 +1,8 @@
 metric,value
 Total Reservations,184.0
-Emails Sent,183.0
-Emails Failed,1.0
-Email Success Rate,0.9945652173913043
+Emails Sent,184.0
+Emails Failed,0.0
+Email Success Rate,1.0
 Total Revenue,253538.31
 Average Fare,1377.925597826087
 Status: Cancelled,45.0

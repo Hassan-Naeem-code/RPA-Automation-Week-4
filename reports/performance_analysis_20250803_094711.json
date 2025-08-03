@@ -1,0 +1,37 @@
+{
+  "timestamp": "20250803_094711",
+  "performance_metrics": {
+    "original_fixed": {
+      "runtime": 164.5014419555664,
+      "memory_change": 424.078125,
+      "success": true,
+      "output_lines": 1,
+      "logged_runtime": 46.0,
+      "records_processed": 46,
+      "confirmations_sent": 46
+    },
+    "optimized": {
+      "runtime": 19.440760135650635,
+      "memory_change": -749.546875,
+      "success": true,
+      "output_lines": 10,
+      "logged_runtime": 47.0,
+      "records_processed": 47,
+      "confirmations_sent": 47,
+      "processing_rate": 47.0
+    },
+    "comparison": {
+      "runtime_improvement": -2.1739130434782608,
+      "speed_multiplier": 0.9787234042553191,
+      "orig_records_per_sec": 1.0,
+      "opt_records_per_sec": 47.0
+    }
+  },
+  "summary": {
+    "runtime_improvement_percent": -2.1739130434782608,
+    "speed_multiplier": 0.9787234042553191,
+    "throughput_improvement": 47.0,
+    "data_consistency": false,
+    "email_consistency": true
+  }
+}

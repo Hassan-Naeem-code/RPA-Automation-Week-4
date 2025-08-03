@@ -20,3 +20,47 @@
 2025-08-03 08:58:40,148 - INFO - Detailed report: reports/detailed_report_20250803_085840.csv
 2025-08-03 08:58:40,148 - INFO - Processing rate: 9.94 records/second
 2025-08-03 08:58:40,152 - INFO - Optimized profiling data saved to automation_optimized_profile.prof
+2025-08-03 09:42:38,702 - INFO - Starting OPTIMIZED Flight Booking Confirmation Automation
+2025-08-03 09:42:38,702 - INFO - Initial memory usage: 67.25 MB
+2025-08-03 09:42:38,702 - INFO - Loading data from data/reservations.csv
+2025-08-03 09:42:38,708 - INFO - Loaded 205 reservation records
+2025-08-03 09:42:38,708 - INFO - Cleaning data using optimized vectorized operations
+2025-08-03 09:42:38,713 - INFO - Cleaned data: 184 valid records
+2025-08-03 09:42:38,723 - INFO - Sending confirmations in optimized mode for 184 reservations
+2025-08-03 09:42:55,819 - INFO - Optimized email sending completed: 180 sent, 0 failed, 4 skipped
+2025-08-03 09:42:55,828 - INFO - Generating detailed report
+2025-08-03 09:42:55,836 - INFO - Generating summary report
+2025-08-03 09:42:55,839 - INFO - Saving report to reports/optimized_automation_report.csv
+2025-08-03 09:42:55,840 - INFO - Report saved to reports/optimized_automation_report.csv and reports/optimized_automation_report.json
+2025-08-03 09:42:55,840 - INFO - === OPTIMIZED AUTOMATION COMPLETED ===
+2025-08-03 09:42:55,840 - INFO - Total runtime: 17.14 seconds
+2025-08-03 09:42:55,841 - INFO - Peak memory usage: 67.91 MB
+2025-08-03 09:42:55,841 - INFO - Memory increase: 0.66 MB
+2025-08-03 09:42:55,841 - INFO - Records processed: 184
+2025-08-03 09:42:55,841 - INFO - Confirmations sent: 180
+2025-08-03 09:42:55,841 - INFO - Summary report: reports/optimized_automation_report.csv
+2025-08-03 09:42:55,841 - INFO - Detailed report: reports/detailed_report_20250803_094255.csv
+2025-08-03 09:42:55,841 - INFO - Processing rate: 10.74 records/second
+2025-08-03 09:42:55,846 - INFO - Optimized profiling data saved to automation_optimized_profile.prof
+2025-08-03 09:46:52,290 - INFO - Starting OPTIMIZED Flight Booking Confirmation Automation
+2025-08-03 09:46:52,290 - INFO - Initial memory usage: 70.45 MB
+2025-08-03 09:46:52,290 - INFO - Loading data from data/reservations.csv
+2025-08-03 09:46:52,293 - INFO - Loaded 205 reservation records
+2025-08-03 09:46:52,293 - INFO - Cleaning data using optimized vectorized operations
+2025-08-03 09:46:52,296 - INFO - Cleaned data: 184 valid records
+2025-08-03 09:46:52,302 - INFO - Sending confirmations in optimized mode for 184 reservations
+2025-08-03 09:47:11,332 - INFO - Optimized email sending completed: 180 sent, 0 failed, 4 skipped
+2025-08-03 09:47:11,361 - INFO - Generating detailed report
+2025-08-03 09:47:11,371 - INFO - Generating summary report
+2025-08-03 09:47:11,374 - INFO - Saving report to reports/optimized_automation_report.csv
+2025-08-03 09:47:11,375 - INFO - Report saved to reports/optimized_automation_report.csv and reports/optimized_automation_report.json
+2025-08-03 09:47:11,375 - INFO - === OPTIMIZED AUTOMATION COMPLETED ===
+2025-08-03 09:47:11,375 - INFO - Total runtime: 19.09 seconds
+2025-08-03 09:47:11,375 - INFO - Peak memory usage: 65.52 MB
+2025-08-03 09:47:11,375 - INFO - Memory increase: -4.94 MB
+2025-08-03 09:47:11,375 - INFO - Records processed: 184
+2025-08-03 09:47:11,375 - INFO - Confirmations sent: 180
+2025-08-03 09:47:11,375 - INFO - Summary report: reports/optimized_automation_report.csv
+2025-08-03 09:47:11,375 - INFO - Detailed report: reports/detailed_report_20250803_094711.csv
+2025-08-03 09:47:11,375 - INFO - Processing rate: 9.64 records/second
+2025-08-03 09:47:11,379 - INFO - Optimized profiling data saved to automation_optimized_profile.prof
