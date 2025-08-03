@@ -1,34 +1,32 @@
 metric,value
-Total Reservations,199.0
-Emails Sent,195.0
-Emails Failed,4.0
-Email Success Rate,0.9798994974874372
-Total Revenue,263791.98
-Average Fare,1325.5878391959798
-Status: Cancelled,48.0
-Status: Completed,41.0
-Status: Confirmed,39.0
-Status: Checked-in,35.0
-Status: Pending,33.0
-Status: Error,2.0
-Status: Processing,1.0
+Total Reservations,184.0
+Emails Sent,183.0
+Emails Failed,1.0
+Email Success Rate,0.9945652173913043
+Total Revenue,253538.31
+Average Fare,1377.925597826087
+Status: Cancelled,45.0
+Status: Completed,37.0
+Status: Confirmed,37.0
+Status: Checked-in,34.0
+Status: Pending,31.0
 Top Origin: HNL,12.0
 Top Origin: PDX,11.0
-Top Origin: FLL,9.0
-Top Origin: DTW,9.0
 Top Origin: AUS,9.0
-Top Origin: LAS,9.0
-Top Origin: SEA,8.0
-Top Origin: DEN,8.0
-Top Origin: ORD,8.0
+Top Origin: DTW,9.0
 Top Origin: TPA,8.0
-Top Destination: IAH,10.0
+Top Origin: BWI,8.0
+Top Origin: DEN,8.0
+Top Origin: LAS,8.0
+Top Origin: FLL,7.0
+Top Origin: LGA,7.0
+Top Destination: IAH,11.0
 Top Destination: SEA,10.0
-Top Destination: EWR,9.0
 Top Destination: MDW,9.0
+Top Destination: IAD,9.0
+Top Destination: EWR,8.0
 Top Destination: FLL,8.0
-Top Destination: PHL,8.0
-Top Destination: PHX,8.0
 Top Destination: PDX,8.0
-Top Destination: ATL,8.0
+Top Destination: STL,8.0
+Top Destination: PHX,8.0
 Top Destination: DTW,8.0

@@ -1,0 +1,32 @@
+metric,value
+Total Reservations,184.0
+Emails Sent,180.0
+Emails Failed,0.0
+Email Success Rate,0.9782608695652174
+Total Revenue,248628.89
+Average Fare,1351.2439673913045
+Status: Cancelled,42.0
+Status: Completed,38.0
+Status: Confirmed,37.0
+Status: Checked-in,35.0
+Status: Pending,32.0
+Top Origin: PDX,11.0
+Top Origin: HNL,11.0
+Top Origin: DEN,9.0
+Top Origin: DTW,9.0
+Top Origin: LAS,9.0
+Top Origin: AUS,8.0
+Top Origin: TPA,8.0
+Top Origin: FLL,8.0
+Top Origin: JFK,7.0
+Top Origin: SEA,7.0
+Top Destination: IAH,11.0
+Top Destination: SEA,10.0
+Top Destination: IAD,9.0
+Top Destination: MDW,9.0
+Top Destination: EWR,8.0
+Top Destination: PDX,8.0
+Top Destination: STL,8.0
+Top Destination: DTW,8.0
+Top Destination: FLL,8.0
+Top Destination: PHL,7.0
