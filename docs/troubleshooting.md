@@ -51,7 +51,7 @@ if isinstance(fare, str):
         fare = 0.0
 ```
 
-**Git Commit**: `git commit -m "Fix: handle string fare values with currency symbols"`
+**Git Commit**: `d7aee63` - "Fix: handle string fare values and improve data validation"
 
 ### Error 2: Validation Not Filtering Invalid Records
 **Error**: Invalid records were being included in processing despite validation errors
@@ -72,7 +72,7 @@ else:
     self.validation_errors.extend(errors)
 ```
 
-**Git Commit**: `git commit -m "Fix: filter out invalid records in validation"`
+**Git Commit**: `d7aee63` - "Fix: handle string fare values and improve data validation"
 
 ### Error 3: Missing Email Validation
 **Error**: Email format was never validated despite having a validation method
@@ -81,7 +81,7 @@ else:
 
 **Fix Applied**: Added email validation call in `_validate_single_record()`
 
-**Git Commit**: `git commit -m "Fix: add missing email validation"`
+**Git Commit**: `d7aee63` - "Fix: handle string fare values and improve data validation"
 
 ### Error 4: Performance Issues
 **Error**: 334 seconds runtime for 199 records (1.6 seconds per record)
@@ -90,8 +90,12 @@ else:
 - Synchronous email sending with 100ms delay between emails
 - No vectorized operations
 
-**Initial Status**: 334.22 seconds total runtime
-**Target**: < 30 seconds
+**Git Commits**: 
+- `d7aee63` - Initial bug fixes
+- `ea05637` - "Optimize: implement vectorized operations and concurrent processing"
+- `ff9c9c4` - "Complete: documentation and performance analysis tools"
+
+**Final Status**: 334s → 18.5s (94.5% improvement)
 
 ## Performance Optimization Summary
 
