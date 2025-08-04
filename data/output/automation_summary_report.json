@@ -1,0 +1,46 @@
+{
+  "timestamp": "20250803_212101",
+  "total_reservations": 180,
+  "email_confirmations": {
+    "sent": 179,
+    "failed": 1,
+    "success_rate": 0.9944444444444445
+  },
+  "revenue_summary": {
+    "total_revenue": 245507.28000000003,
+    "average_fare": 1363.9293333333335,
+    "min_fare": 173.86,
+    "max_fare": 2489.24
+  },
+  "status_breakdown": {
+    "Cancelled": 42,
+    "Completed": 37,
+    "Confirmed": 36,
+    "Checked-in": 34,
+    "Pending": 31
+  },
+  "top_origins": {
+    "PDX": 11,
+    "HNL": 11,
+    "DTW": 9,
+    "DEN": 8,
+    "TPA": 8,
+    "LAS": 8,
+    "AUS": 8,
+    "BWI": 7,
+    "JFK": 7,
+    "SEA": 7
+  },
+  "top_destinations": {
+    "IAH": 11,
+    "SEA": 10,
+    "MDW": 9,
+    "IAD": 9,
+    "EWR": 8,
+    "PDX": 8,
+    "STL": 8,
+    "DTW": 8,
+    "FLL": 8,
+    "PHX": 7
+  }
+}

@@ -1,0 +1,135 @@
+# Application Configuration
+app:
+  name: "Flight Booking Automation"
+  version: "1.0.0"
+  environment: "production"
+  debug: false
+
+# Data Processing Configuration
+data:
+  input_path: "data/input/"
+  output_path: "data/output/"
+  sample_path: "data/sample/"
+  batch_size: 100
+  max_records: 10000
+  file_encoding: "utf-8"
+  
+  # Data validation settings
+  validation:
+    strict_mode: true
+    skip_invalid_records: true
+    max_error_rate: 0.1  # 10% max error rate before stopping
+
+# Email Service Configuration
+email:
+  smtp_server: "smtp.example.com"
+  smtp_port: 587
+  username: "automation@company.com"
+  use_tls: true
+  timeout: 30
+  
+  # Performance settings
+  max_workers: 5
+  batch_size: 10
+  retry_attempts: 3
+  retry_delay: 2  # seconds
+  
+  # Rate limiting
+  rate_limit:
+    enabled: true
+    max_per_minute: 100
+    max_per_hour: 1000
+
+# Performance & Monitoring
+performance:
+  enable_profiling: true
+  memory_limit_mb: 512
+  cpu_limit_percent: 80
+  
+  # Metrics collection
+  metrics:
+    enabled: true
+    interval_seconds: 60
+    export_path: "logs/metrics/"
+  
+  # Optimization settings
+  optimization:
+    use_vectorized_operations: true
+    enable_concurrent_processing: true
+    garbage_collection_frequency: 100  # records
+
+# Airport Configuration
+airports:
+  valid_codes:
+    - "LAX"
+    - "JFK" 
+    - "ORD"
+    - "DFW"
+    - "DEN"
+    - "ATL"
+    - "SFO"
+    - "SEA"
+    - "LAS"
+    - "MCO"
+    - "EWR"
+    - "CLT"
+    - "PHX"
+    - "IAH"
+    - "MIA"
+    - "BOS"
+    - "MSP"
+    - "FLL"
+    - "DTW"
+    - "PHL"
+    - "LGA"
+    - "BWI"
+    - "MDW"
+    - "TPA"
+    - "IAD"
+    - "SAN"
+    - "HNL"
+    - "PDX"
+    - "STL"
+    - "AUS"
+
+# Booking Status Configuration  
+booking_status:
+  valid_statuses:
+    - "Confirmed"
+    - "Cancelled"
+    - "Pending"
+    - "Checked-in"
+    - "Completed"
+  
+  default_status: "Pending"
+  
+  # Status transitions
+  transitions:
+    "Pending": ["Confirmed", "Cancelled"]
+    "Confirmed": ["Checked-in", "Cancelled"]
+    "Checked-in": ["Completed"]
+
+# Reporting Configuration
+reporting:
+  output_formats: ["csv", "json", "html"]
+  include_detailed_report: true
+  include_summary_report: true
+  include_performance_metrics: true
+  
+  # Report scheduling
+  schedule:
+    daily_summary: true
+    weekly_detailed: true
+    monthly_analysis: true
+
+# Security Configuration
+security:
+  encrypt_sensitive_data: true
+  mask_pii_in_logs: true
+  audit_trail: true
+  
+  # Data retention
+  retention:
+    logs_days: 90
+    reports_days: 365
+    audit_days: 2555  # 7 years

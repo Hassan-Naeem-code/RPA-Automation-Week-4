@@ -1,0 +1,27 @@
+# Core Dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+psutil>=5.9.0
+tenacity>=8.2.0
+pyyaml>=6.0
+jinja2>=3.1.0
+
+# Email Dependencies
+smtplib-ssl>=1.0.0
+
+# Performance & Monitoring
+cProfile
+snakeviz>=2.1.0
+
+# Data Generation
+faker>=18.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+pathlib2>=2.3.0
+
+# Logging
+colorlog>=6.7.0
+
+# Configuration Management
+python-dotenv>=1.0.0

@@ -1,0 +1,88 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  default:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+  
+  detailed:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(module)s - %(funcName)s:%(lineno)d - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+  
+  json:
+    format: '{"timestamp": "%(asctime)s", "logger": "%(name)s", "level": "%(levelname)s", "module": "%(module)s", "function": "%(funcName)s", "line": %(lineno)d, "message": "%(message)s"}'
+    datefmt: '%Y-%m-%dT%H:%M:%S'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: default
+    stream: ext://sys.stdout
+  
+  file_info:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: detailed
+    filename: logs/automation.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 5
+    encoding: utf8
+  
+  file_error:
+    class: logging.handlers.RotatingFileHandler
+    level: ERROR
+    formatter: detailed
+    filename: logs/automation_errors.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 10
+    encoding: utf8
+  
+  file_performance:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: json
+    filename: logs/performance.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 5
+    encoding: utf8
+  
+  file_audit:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: json
+    filename: logs/audit.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 20
+    encoding: utf8
+
+loggers:
+  flight_automation:
+    level: INFO
+    handlers: [console, file_info, file_error]
+    propagate: false
+  
+  flight_automation.core:
+    level: DEBUG
+    handlers: [file_info]
+    propagate: true
+  
+  flight_automation.services:
+    level: INFO
+    handlers: [file_info]
+    propagate: true
+  
+  flight_automation.performance:
+    level: INFO
+    handlers: [file_performance]
+    propagate: false
+  
+  flight_automation.audit:
+    level: INFO
+    handlers: [file_audit]
+    propagate: false
+
+root:
+  level: WARNING
+  handlers: [console]

@@ -1,0 +1,2 @@
+2025-08-03 21:16:45 - flight_automation.main - ERROR - run_automation - run_automation_pipeline:156 - Automation pipeline failed: Data file not found: data/input/reservations.csv
+2025-08-03 21:21:10 - flight_automation.services.email_service - ERROR - email_service - send_confirmations_optimized:133 - Failed to send confirmation for PNR NK175K: RetryError[<Future at 0x146567ec0 state=finished raised Exception>]

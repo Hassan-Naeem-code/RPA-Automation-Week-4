@@ -1,0 +1,64 @@
+2025-08-03 21:16:45 - flight_automation.main - INFO - run_automation - run_automation_pipeline:66 - Starting Flight Booking Automation Pipeline
+2025-08-03 21:16:45 - flight_automation.main - ERROR - run_automation - run_automation_pipeline:156 - Automation pipeline failed: Data file not found: data/input/reservations.csv
+2025-08-03 21:20:19 - flight_automation.main - INFO - run_automation - run_automation_pipeline:66 - Starting Flight Booking Automation Pipeline
+2025-08-03 21:20:19 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
+2025-08-03 21:20:19 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
+2025-08-03 21:20:19 - flight_automation.main - INFO - run_automation - run_automation_pipeline:85 - Loaded 205 reservation records
+2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
+2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
+2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
+2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
+2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
+2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
+2025-08-03 21:20:19 - flight_automation.main - INFO - run_automation - run_automation_pipeline:91 - Validated data: 184 valid records
+2025-08-03 21:20:19 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
+2025-08-03 21:20:19 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
+2025-08-03 21:20:19 - flight_automation.main - INFO - run_automation - run_automation_pipeline:101 - Processed 180 reservations
+2025-08-03 21:20:19 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
+2025-08-03 21:20:19 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
+2025-08-03 21:20:39 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 180 sent, 0 failed, 0 skipped
+2025-08-03 21:20:39 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 180 sent, 0 failed, 0 skipped
+2025-08-03 21:20:39 - flight_automation.main - INFO - run_automation - run_automation_pipeline:113 - Email confirmations: 180 sent, 0 failed
+2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
+2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
+2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
+2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
+2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
+2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
+2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
+2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
+2025-08-03 21:20:39 - flight_automation.main - INFO - run_automation - run_automation_pipeline:136 - Reports generated: data/output/automation_summary_report.csv
+2025-08-03 21:20:39 - flight_automation.main - INFO - run_automation - run_automation_pipeline:138 - Detailed report: reports/detailed_report_20250803_212019.csv
+2025-08-03 21:20:39 - flight_automation.main - INFO - run_automation - run_automation_pipeline:152 - === AUTOMATION PIPELINE COMPLETED SUCCESSFULLY ===
+2025-08-03 21:21:01 - flight_automation.main - INFO - run_automation - run_automation_pipeline:66 - Starting Flight Booking Automation Pipeline
+2025-08-03 21:21:01 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
+2025-08-03 21:21:01 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
+2025-08-03 21:21:01 - flight_automation.main - INFO - run_automation - run_automation_pipeline:85 - Loaded 205 reservation records
+2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
+2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
+2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
+2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
+2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
+2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
+2025-08-03 21:21:01 - flight_automation.main - INFO - run_automation - run_automation_pipeline:91 - Validated data: 184 valid records
+2025-08-03 21:21:01 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
+2025-08-03 21:21:01 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
+2025-08-03 21:21:01 - flight_automation.main - INFO - run_automation - run_automation_pipeline:101 - Processed 180 reservations
+2025-08-03 21:21:01 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
+2025-08-03 21:21:01 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
+2025-08-03 21:21:10 - flight_automation.services.email_service - ERROR - email_service - send_confirmations_optimized:133 - Failed to send confirmation for PNR NK175K: RetryError[<Future at 0x146567ec0 state=finished raised Exception>]
+2025-08-03 21:21:10 - flight_automation.services.email_service - ERROR - email_service - send_confirmations_optimized:133 - Failed to send confirmation for PNR NK175K: RetryError[<Future at 0x146567ec0 state=finished raised Exception>]
+2025-08-03 21:21:23 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 179 sent, 1 failed, 0 skipped
+2025-08-03 21:21:23 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 179 sent, 1 failed, 0 skipped
+2025-08-03 21:21:23 - flight_automation.main - INFO - run_automation - run_automation_pipeline:113 - Email confirmations: 179 sent, 1 failed
+2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
+2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
+2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
+2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
+2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
+2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
+2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
+2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
+2025-08-03 21:21:23 - flight_automation.main - INFO - run_automation - run_automation_pipeline:136 - Reports generated: data/output/automation_summary_report.csv
+2025-08-03 21:21:23 - flight_automation.main - INFO - run_automation - run_automation_pipeline:138 - Detailed report: reports/detailed_report_20250803_212101.csv
+2025-08-03 21:21:23 - flight_automation.main - INFO - run_automation - run_automation_pipeline:152 - === AUTOMATION PIPELINE COMPLETED SUCCESSFULLY ===
