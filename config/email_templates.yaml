@@ -1,228 +1,159 @@
-# Email Templates Configuration
+# Steel Industry Email Templates
 
-templates:
-  
-  # Booking Confirmation Email
-  booking_confirmation:
-    subject: "Flight Booking Confirmation - {pnr}"
-    html_body: |
-      <!DOCTYPE html>
-      <html>
-      <head>
-          <meta charset="UTF-8">
-          <title>Flight Booking Confirmation</title>
-          <style>
-              body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
-              .container { max-width: 600px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-              .header { text-align: center; color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 20px; margin-bottom: 30px; }
-              .booking-details { background-color: #ecf0f1; padding: 20px; border-radius: 5px; margin: 20px 0; }
-              .detail-row { margin: 10px 0; }
-              .label { font-weight: bold; color: #34495e; }
-              .value { color: #2c3e50; }
-              .footer { text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #bdc3c7; color: #7f8c8d; font-size: 12px; }
-          </style>
-      </head>
-      <body>
-          <div class="container">
-              <div class="header">
-                  <h1>✈️ Flight Booking Confirmed</h1>
-                  <p>Your reservation has been successfully processed</p>
-              </div>
-              
-              <div class="booking-details">
-                  <h2>Booking Details</h2>
-                  <div class="detail-row">
-                      <span class="label">PNR:</span> 
-                      <span class="value">{pnr}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Passenger:</span> 
-                      <span class="value">{passenger}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Route:</span> 
-                      <span class="value">{origin} → {destination}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Fare:</span> 
-                      <span class="value">${fare:.2f}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Status:</span> 
-                      <span class="value">{status}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Travel Date:</span> 
-                      <span class="value">{travel_date}</span>
-                  </div>
-              </div>
-              
-              <div class="footer">
-                  <p>Thank you for choosing our service!</p>
-                  <p>This is an automated message from the Flight Booking Automation System.</p>
-              </div>
-          </div>
-      </body>
-      </html>
-    
-    text_body: |
-      ✈️ FLIGHT BOOKING CONFIRMATION ✈️
-      
-      Dear {passenger},
-      
-      Your flight booking has been confirmed!
-      
-      BOOKING DETAILS:
-      ================
-      PNR: {pnr}
-      Passenger: {passenger}
-      Route: {origin} → {destination}
-      Fare: ${fare:.2f}
-      Status: {status}
-      Travel Date: {travel_date}
-      
-      Thank you for choosing our service!
-      
-      This is an automated message from the Flight Booking Automation System.
-  
-  # Booking Cancellation Email
-  booking_cancellation:
-    subject: "Flight Booking Cancelled - {pnr}"
-    html_body: |
-      <!DOCTYPE html>
-      <html>
-      <head>
-          <meta charset="UTF-8">
-          <title>Flight Booking Cancellation</title>
-          <style>
-              body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
-              .container { max-width: 600px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-              .header { text-align: center; color: #e74c3c; border-bottom: 2px solid #e74c3c; padding-bottom: 20px; margin-bottom: 30px; }
-              .booking-details { background-color: #fdf2f2; padding: 20px; border-radius: 5px; margin: 20px 0; border: 1px solid #e74c3c; }
-              .detail-row { margin: 10px 0; }
-              .label { font-weight: bold; color: #34495e; }
-              .value { color: #2c3e50; }
-              .footer { text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #bdc3c7; color: #7f8c8d; font-size: 12px; }
-          </style>
-      </head>
-      <body>
-          <div class="container">
-              <div class="header">
-                  <h1>❌ Flight Booking Cancelled</h1>
-                  <p>Your reservation has been cancelled</p>
-              </div>
-              
-              <div class="booking-details">
-                  <h2>Cancelled Booking Details</h2>
-                  <div class="detail-row">
-                      <span class="label">PNR:</span> 
-                      <span class="value">{pnr}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Passenger:</span> 
-                      <span class="value">{passenger}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Route:</span> 
-                      <span class="value">{origin} → {destination}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Refund Amount:</span> 
-                      <span class="value">${fare:.2f}</span>
-                  </div>
-              </div>
-              
-              <div class="footer">
-                  <p>If you have any questions, please contact our customer service.</p>
-                  <p>This is an automated message from the Flight Booking Automation System.</p>
-              </div>
-          </div>
-      </body>
-      </html>
-    
-    text_body: |
-      ❌ FLIGHT BOOKING CANCELLED ❌
-      
-      Dear {passenger},
-      
-      Your flight booking has been cancelled.
-      
-      CANCELLED BOOKING DETAILS:
-      ==========================
-      PNR: {pnr}
-      Passenger: {passenger}
-      Route: {origin} → {destination}
-      Refund Amount: ${fare:.2f}
-      
-      If you have any questions, please contact our customer service.
-      
-      This is an automated message from the Flight Booking Automation System.
+order_confirmation:
+  subject: "Steel Order Confirmation - {order_id}"
+  body: |
+    Dear {customer_name},
 
-  # Processing Error Email
-  processing_error:
-    subject: "Flight Booking Processing Error - {pnr}"
-    html_body: |
-      <!DOCTYPE html>
-      <html>
-      <head>
-          <meta charset="UTF-8">
-          <title>Flight Booking Processing Error</title>
-          <style>
-              body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
-              .container { max-width: 600px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-              .header { text-align: center; color: #f39c12; border-bottom: 2px solid #f39c12; padding-bottom: 20px; margin-bottom: 30px; }
-              .error-details { background-color: #fdf6e3; padding: 20px; border-radius: 5px; margin: 20px 0; border: 1px solid #f39c12; }
-              .detail-row { margin: 10px 0; }
-              .label { font-weight: bold; color: #34495e; }
-              .value { color: #2c3e50; }
-              .footer { text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #bdc3c7; color: #7f8c8d; font-size: 12px; }
-          </style>
-      </head>
-      <body>
-          <div class="container">
-              <div class="header">
-                  <h1>⚠️ Processing Error</h1>
-                  <p>There was an issue processing your booking</p>
-              </div>
-              
-              <div class="error-details">
-                  <h2>Error Details</h2>
-                  <div class="detail-row">
-                      <span class="label">PNR:</span> 
-                      <span class="value">{pnr}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Error:</span> 
-                      <span class="value">{error_message}</span>
-                  </div>
-                  <div class="detail-row">
-                      <span class="label">Next Steps:</span> 
-                      <span class="value">Our team has been notified and will resolve this issue shortly.</span>
-                  </div>
-              </div>
-              
-              <div class="footer">
-                  <p>We apologize for the inconvenience.</p>
-                  <p>This is an automated message from the Flight Booking Automation System.</p>
-              </div>
-          </div>
-      </body>
-      </html>
+    Thank you for your steel order. We are pleased to confirm the following details:
+
+    ORDER DETAILS:
+    Order ID: {order_id}
+    Batch ID: {batch_id}
+    Steel Grade: {steel_grade}
+    Steel Type: {steel_type}
+    Dimensions: {thickness}mm x {width}mm x {length}mm
+    Weight: {weight:,.1f} kg
+    Total Price: ${total_price:,.2f}
+
+    PRODUCTION DETAILS:
+    Production Line: {production_line}
+    Expected Production Date: {production_date}
+    Expected Delivery Date: {delivery_date}
+    Quality Grade: {quality_grade}
+    Warehouse: {warehouse}
+
+    Your order is currently: {status}
+
+    We will keep you updated on the progress of your order. Please contact us if you have any questions.
+
+    Best regards,
+    Steel Corporation Production Team
+    Email: production@steelcorp.com
+    Phone: 1-800-STEEL-01
+
+production_update:
+  subject: "Production Update - Order {order_id}"
+  body: |
+    Dear {customer_name},
+
+    We would like to update you on the production status of your steel order:
+
+    Order ID: {order_id}
+    Current Status: {status}
+    Production Line: {production_line}
+    Quality Grade: {quality_grade}
+
+    {status_message}
+
+    Thank you for choosing Steel Corporation.
+
+    Best regards,
+    Production Team
+
+quality_alert:
+  subject: "Quality Alert - Order {order_id}"
+  body: |
+    Dear {customer_name},
+
+    We need to inform you about a quality issue with your steel order:
+
+    Order ID: {order_id}
+    Quality Grade: {quality_grade}
+    Issue: Quality grade below standard specifications
+
+    Our quality control team is working to resolve this issue. We will contact you shortly with options including:
+    - Rework to meet specifications
+    - Replacement order
+    - Partial refund
+
+    We apologize for any inconvenience and appreciate your patience.
+
+    Best regards,
+    Quality Control Team
+
+shipping_notification:
+  subject: "Shipping Notification - Order {order_id}"
+  body: |
+    Dear {customer_name},
+
+    Great news! Your steel order has been shipped and is on its way to you.
+
+    ORDER DETAILS:
+    Order ID: {order_id}
+    Steel Grade: {steel_grade}
+    Weight: {weight:,.1f} kg
     
-    text_body: |
-      ⚠️ FLIGHT BOOKING PROCESSING ERROR ⚠️
-      
-      Dear Customer,
-      
-      There was an issue processing your booking.
-      
-      ERROR DETAILS:
-      ==============
-      PNR: {pnr}
-      Error: {error_message}
-      
-      Our team has been notified and will resolve this issue shortly.
-      
-      We apologize for the inconvenience.
-      
-      This is an automated message from the Flight Booking Automation System.
+    SHIPPING DETAILS:
+    Shipped From: {warehouse}
+    Expected Delivery: {delivery_date}
+    Tracking Number: {tracking_number}
+
+    Please ensure someone is available to receive the delivery on the scheduled date.
+
+    Thank you for your business!
+
+    Best regards,
+    Logistics Team
+
+delivery_confirmation:
+  subject: "Delivery Confirmation - Order {order_id}"
+  body: |
+    Dear {customer_name},
+
+    This email confirms that your steel order has been successfully delivered.
+
+    Order ID: {order_id}
+    Delivered on: {delivery_date}
+    Delivered to: {delivery_address}
+    Received by: {received_by}
+
+    Please inspect the delivered materials and contact us within 48 hours if you notice any issues.
+
+    We appreciate your business and look forward to serving you again.
+
+    Best regards,
+    Steel Corporation Customer Service
+
+order_cancellation:
+  subject: "Order Cancellation - {order_id}"
+  body: |
+    Dear {customer_name},
+
+    We regret to inform you that your steel order has been cancelled.
+
+    Order ID: {order_id}
+    Cancellation Reason: {cancellation_reason}
+    Refund Amount: ${refund_amount:,.2f}
+
+    Your refund will be processed within 3-5 business days and credited back to your original payment method.
+
+    If you have any questions about this cancellation, please contact our customer service team.
+
+    We apologize for any inconvenience caused.
+
+    Best regards,
+    Customer Service Team
+
+rework_notification:
+  subject: "Rework Required - Order {order_id}"
+  body: |
+    Dear {customer_name},
+
+    During quality inspection, we identified that your steel order requires rework to meet specifications.
+
+    Order ID: {order_id}
+    Quality Issue: {quality_issue}
+    Rework Required: {rework_description}
+
+    REVISED TIMELINE:
+    Rework Start Date: {rework_start_date}
+    New Expected Completion: {revised_completion_date}
+    New Delivery Date: {revised_delivery_date}
+
+    We will keep you updated on the rework progress. No additional charges will apply for this rework.
+
+    We apologize for the delay and appreciate your patience.
+
+    Best regards,
+    Quality Control Team

@@ -1,7 +1,0 @@
-config
-data
-flight_automation
-logs
-reports
-scripts
-src

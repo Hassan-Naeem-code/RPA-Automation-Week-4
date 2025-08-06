@@ -1,94 +1,150 @@
-2025-08-03 21:16:45 - flight_automation.main - INFO - run_automation - run_automation_pipeline:66 - Starting Flight Booking Automation Pipeline
-2025-08-03 21:16:45 - flight_automation.main - ERROR - run_automation - run_automation_pipeline:156 - Automation pipeline failed: Data file not found: data/input/reservations.csv
-2025-08-03 21:20:19 - flight_automation.main - INFO - run_automation - run_automation_pipeline:66 - Starting Flight Booking Automation Pipeline
-2025-08-03 21:20:19 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
-2025-08-03 21:20:19 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
-2025-08-03 21:20:19 - flight_automation.main - INFO - run_automation - run_automation_pipeline:85 - Loaded 205 reservation records
-2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
-2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
-2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
-2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
-2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
-2025-08-03 21:20:19 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
-2025-08-03 21:20:19 - flight_automation.main - INFO - run_automation - run_automation_pipeline:91 - Validated data: 184 valid records
-2025-08-03 21:20:19 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
-2025-08-03 21:20:19 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
-2025-08-03 21:20:19 - flight_automation.main - INFO - run_automation - run_automation_pipeline:101 - Processed 180 reservations
-2025-08-03 21:20:19 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
-2025-08-03 21:20:19 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
-2025-08-03 21:20:39 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 180 sent, 0 failed, 0 skipped
-2025-08-03 21:20:39 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 180 sent, 0 failed, 0 skipped
-2025-08-03 21:20:39 - flight_automation.main - INFO - run_automation - run_automation_pipeline:113 - Email confirmations: 180 sent, 0 failed
-2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
-2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
-2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
-2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
-2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
-2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
-2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
-2025-08-03 21:20:39 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
-2025-08-03 21:20:39 - flight_automation.main - INFO - run_automation - run_automation_pipeline:136 - Reports generated: data/output/automation_summary_report.csv
-2025-08-03 21:20:39 - flight_automation.main - INFO - run_automation - run_automation_pipeline:138 - Detailed report: reports/detailed_report_20250803_212019.csv
-2025-08-03 21:20:39 - flight_automation.main - INFO - run_automation - run_automation_pipeline:152 - === AUTOMATION PIPELINE COMPLETED SUCCESSFULLY ===
-2025-08-03 21:21:01 - flight_automation.main - INFO - run_automation - run_automation_pipeline:66 - Starting Flight Booking Automation Pipeline
-2025-08-03 21:21:01 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
-2025-08-03 21:21:01 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
-2025-08-03 21:21:01 - flight_automation.main - INFO - run_automation - run_automation_pipeline:85 - Loaded 205 reservation records
-2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
-2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
-2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
-2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
-2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
-2025-08-03 21:21:01 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
-2025-08-03 21:21:01 - flight_automation.main - INFO - run_automation - run_automation_pipeline:91 - Validated data: 184 valid records
-2025-08-03 21:21:01 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
-2025-08-03 21:21:01 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
-2025-08-03 21:21:01 - flight_automation.main - INFO - run_automation - run_automation_pipeline:101 - Processed 180 reservations
-2025-08-03 21:21:01 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
-2025-08-03 21:21:01 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
-2025-08-03 21:21:10 - flight_automation.services.email_service - ERROR - email_service - send_confirmations_optimized:133 - Failed to send confirmation for PNR NK175K: RetryError[<Future at 0x146567ec0 state=finished raised Exception>]
-2025-08-03 21:21:10 - flight_automation.services.email_service - ERROR - email_service - send_confirmations_optimized:133 - Failed to send confirmation for PNR NK175K: RetryError[<Future at 0x146567ec0 state=finished raised Exception>]
-2025-08-03 21:21:23 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 179 sent, 1 failed, 0 skipped
-2025-08-03 21:21:23 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 179 sent, 1 failed, 0 skipped
-2025-08-03 21:21:23 - flight_automation.main - INFO - run_automation - run_automation_pipeline:113 - Email confirmations: 179 sent, 1 failed
-2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
-2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
-2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
-2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
-2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
-2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
-2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
-2025-08-03 21:21:23 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
-2025-08-03 21:21:23 - flight_automation.main - INFO - run_automation - run_automation_pipeline:136 - Reports generated: data/output/automation_summary_report.csv
-2025-08-03 21:21:23 - flight_automation.main - INFO - run_automation - run_automation_pipeline:138 - Detailed report: reports/detailed_report_20250803_212101.csv
-2025-08-03 21:21:23 - flight_automation.main - INFO - run_automation - run_automation_pipeline:152 - === AUTOMATION PIPELINE COMPLETED SUCCESSFULLY ===
-2025-08-05 20:57:37 - flight_automation.main - INFO - run_automation - run_automation_pipeline:66 - Starting Flight Booking Automation Pipeline
-2025-08-05 20:57:37 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
-2025-08-05 20:57:37 - flight_automation.core.data_processor - INFO - data_processor - load_data:29 - Loading data from data/reservations.csv
-2025-08-05 20:57:37 - flight_automation.main - INFO - run_automation - run_automation_pipeline:85 - Loaded 205 reservation records
-2025-08-05 20:57:37 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
-2025-08-05 20:57:37 - flight_automation.core.validation - INFO - validation - validate_reservations:30 - Validating 205 reservations
-2025-08-05 20:57:37 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
-2025-08-05 20:57:37 - flight_automation.core.validation - INFO - validation - validate_reservations:45 - Found 21 validation errors
-2025-08-05 20:57:37 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
-2025-08-05 20:57:37 - flight_automation.core.validation - INFO - validation - validate_reservations:46 - Filtered dataset: 184 valid records out of 205 total
-2025-08-05 20:57:37 - flight_automation.main - INFO - run_automation - run_automation_pipeline:91 - Validated data: 184 valid records
-2025-08-05 20:57:37 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
-2025-08-05 20:57:37 - flight_automation.core.data_processor - INFO - data_processor - clean_data_optimized:127 - Cleaning data using optimized vectorized operations
-2025-08-05 20:57:37 - flight_automation.main - INFO - run_automation - run_automation_pipeline:101 - Processed 180 reservations
-2025-08-05 20:57:37 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
-2025-08-05 20:57:37 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:104 - Sending confirmations in optimized mode for 180 reservations
-2025-08-05 20:57:56 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 180 sent, 0 failed, 0 skipped
-2025-08-05 20:57:56 - flight_automation.services.email_service - INFO - email_service - send_confirmations_optimized:145 - Optimized email sending completed: 180 sent, 0 failed, 0 skipped
-2025-08-05 20:57:56 - flight_automation.main - INFO - run_automation - run_automation_pipeline:113 - Email confirmations: 180 sent, 0 failed
-2025-08-05 20:57:56 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
-2025-08-05 20:57:56 - flight_automation.services.reporting - INFO - reporting - generate_detailed_report:155 - Generating detailed report
-2025-08-05 20:57:56 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
-2025-08-05 20:57:56 - flight_automation.services.reporting - INFO - reporting - generate_summary_report:25 - Generating summary report
-2025-08-05 20:57:56 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
-2025-08-05 20:57:56 - flight_automation.services.reporting - INFO - reporting - save_report:78 - Saving report to data/output/automation_summary_report.csv
-2025-08-05 20:57:56 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
-2025-08-05 20:57:56 - flight_automation.services.reporting - INFO - reporting - save_report:148 - Report saved to data/output/automation_summary_report.csv and data/output/automation_summary_report.json
-2025-08-05 20:57:56 - flight_automation.main - INFO - run_automation - run_automation_pipeline:136 - Reports generated: data/output/automation_summary_report.csv
-2025-08-05 20:57:56 - flight_automation.main - INFO - run_automation - run_automation_pipeline:138 - Detailed report: reports/detailed_report_20250805_205737.csv
-2025-08-05 20:57:56 - flight_automation.main - INFO - run_automation - run_automation_pipeline:152 - === AUTOMATION PIPELINE COMPLETED SUCCESSFULLY ===
+2025-08-05 21:46:27,332 - root - ERROR - Failed to load logging config: mapping values are not allowed here
+  in "/Users/muhammadhassannaeem/Desktop/ConcordiaUniversity/LR-Robotic Process Automation/Fourth Assignment/RPA-Automation-Week-4/steel_automation/utils/../../config/logging.yaml", line 84, column 25
+2025-08-05 21:46:27,341 - __main__ - INFO - ============================================================
+2025-08-05 21:46:27,341 - __main__ - INFO - STEEL INDUSTRY AUTOMATION SYSTEM STARTED
+2025-08-05 21:46:27,341 - __main__ - INFO - ============================================================
+2025-08-05 21:46:27,341 - __main__ - INFO - Data file: data/steel_orders.csv
+2025-08-05 21:46:27,341 - __main__ - INFO - Output directory: reports/
+2025-08-05 21:46:27,341 - __main__ - INFO - Dry run mode: False
+2025-08-05 21:46:27,343 - __main__ - INFO - Configuration loaded from config/settings.yaml
+2025-08-05 21:46:27,343 - __main__ - INFO - Initializing steel automation components...
+2025-08-05 21:46:27,343 - __main__ - INFO - Phase 1: Loading and validating steel orders...
+2025-08-05 21:46:27,343 - steel_automation.core.data_processor - INFO - Loading steel orders from data/steel_orders.csv
+2025-08-05 21:46:27,349 - steel_automation.core.data_processor - INFO - Loaded 205 steel order records
+2025-08-05 21:46:27,349 - steel_automation.core.data_processor - INFO - Starting optimized cleaning of 205 steel orders
+2025-08-05 21:46:27,351 - steel_automation.core.data_processor - INFO - Removed 6 duplicate orders
+2025-08-05 21:46:27,354 - steel_automation.core.data_processor - INFO - Optimized cleaning completed in 0.00s
+2025-08-05 21:46:27,354 - steel_automation.core.data_processor - INFO - Valid orders: 188, Invalid: 11
+2025-08-05 21:46:27,362 - steel_automation.core.data_processor - INFO - Steel order processing completed successfully
+2025-08-05 21:46:27,362 - steel_automation.performance - INFO - Performance metrics: {'operation': 'data_loading', 'duration_seconds': 0.01893329620361328, 'records_processed': 0, 'records_per_second': 9929.596937490556, 'memory_usage_mb': 100.890625, 'memory_delta': 1.734375}
+2025-08-05 21:46:27,362 - __main__ - INFO - Loaded 188 steel order records
+2025-08-05 21:46:27,362 - steel_automation.core.validation - INFO - Starting validation of 188 steel orders
+2025-08-05 21:46:27,365 - steel_automation.core.validation - WARNING - Order SO-2024-9279: Carbon steel grade A36 cannot be Stainless Steel type
+2025-08-05 21:46:27,366 - steel_automation.core.validation - WARNING - Order SO-2025-7482: Steel grade 304SS should be Stainless Steel type, not Galvanized
+2025-08-05 21:46:27,367 - steel_automation.core.validation - WARNING - Order SO-2024-9348: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,367 - steel_automation.core.validation - WARNING - Order SO-2024-2876: Steel grade 430SS should be Stainless Steel type, not Carbon Steel
+2025-08-05 21:46:27,368 - steel_automation.core.validation - WARNING - Order SO-2025-6038: Carbon steel grade A572-50 cannot be Stainless Steel type
+2025-08-05 21:46:27,369 - steel_automation.core.validation - WARNING - Order SO-2024-2049: Carbon steel grade A36 cannot be Stainless Steel type
+2025-08-05 21:46:27,369 - steel_automation.core.validation - WARNING - Order SO-2024-8062: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,371 - steel_automation.core.validation - WARNING - Order SO-2025-9565: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,373 - steel_automation.core.validation - WARNING - Order SO-2024-4269: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,373 - steel_automation.core.validation - WARNING - Order SO-2024-4269: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,374 - steel_automation.core.validation - WARNING - Order SO-2025-6753: Steel grade 409SS should be Stainless Steel type, not Tool Steel
+2025-08-05 21:46:27,374 - steel_automation.core.validation - WARNING - Order SO-2024-6967: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-05 21:46:27,375 - steel_automation.core.validation - WARNING - Order SO-2025-4501: Steel grade 316SS should be Stainless Steel type, not Galvanized
+2025-08-05 21:46:27,375 - steel_automation.core.validation - WARNING - Order SO-2024-4262: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,377 - steel_automation.core.validation - WARNING - Order SO-2024-5543: Steel grade 409SS should be Stainless Steel type, not Spring Steel
+2025-08-05 21:46:27,377 - steel_automation.core.validation - WARNING - Order SO-2025-6507: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,378 - steel_automation.core.validation - WARNING - Order SO-2024-8705: Steel grade 430SS should be Stainless Steel type, not Hot Rolled
+2025-08-05 21:46:27,379 - steel_automation.core.validation - WARNING - Order SO-2025-9817: Steel grade 316SS should be Stainless Steel type, not Spring Steel
+2025-08-05 21:46:27,380 - steel_automation.core.validation - WARNING - Order SO-2025-6511: Steel grade 316SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,381 - steel_automation.core.validation - WARNING - Order SO-2024-6016: Steel grade 201SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,381 - steel_automation.core.validation - WARNING - Order SO-2024-9042: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,382 - steel_automation.core.validation - WARNING - Order SO-2025-8381: Steel grade 316SS should be Stainless Steel type, not Carbon Steel
+2025-08-05 21:46:27,383 - steel_automation.core.validation - WARNING - Order SO-2024-3441: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-05 21:46:27,383 - steel_automation.core.validation - WARNING - Order SO-2025-9199: Steel grade 316SS should be Stainless Steel type, not Spring Steel
+2025-08-05 21:46:27,383 - steel_automation.core.validation - WARNING - Order SO-2025-1659: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,384 - steel_automation.core.validation - WARNING - Order SO-2025-2713: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-05 21:46:27,385 - steel_automation.core.validation - WARNING - Order SO-2025-8178: Steel grade 316SS should be Stainless Steel type, not Cold Rolled
+2025-08-05 21:46:27,385 - steel_automation.core.validation - WARNING - Order SO-2025-3434: Steel grade 430SS should be Stainless Steel type, not Spring Steel
+2025-08-05 21:46:27,386 - steel_automation.core.validation - WARNING - Order SO-2025-1715: Steel grade 316SS should be Stainless Steel type, not Tool Steel
+2025-08-05 21:46:27,386 - steel_automation.core.validation - WARNING - Order SO-2025-2633: Steel grade 304SS should be Stainless Steel type, not Hot Rolled
+2025-08-05 21:46:27,386 - steel_automation.core.validation - WARNING - Order SO-2025-2633: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,386 - steel_automation.core.validation - WARNING - Order SO-2025-2315: Cannot ship rejected or rework items
+2025-08-05 21:46:27,387 - steel_automation.core.validation - WARNING - Order SO-2024-8622: Steel grade 430SS should be Stainless Steel type, not Galvanized
+2025-08-05 21:46:27,388 - steel_automation.core.validation - WARNING - Order SO-2025-8916: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,389 - steel_automation.core.validation - WARNING - Order SO-2024-2035: Steel grade 304SS should be Stainless Steel type, not Carbon Steel
+2025-08-05 21:46:27,389 - steel_automation.core.validation - WARNING - Order SO-2024-2035: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,389 - steel_automation.core.validation - WARNING - Order SO-2024-7367: Unit price must be positive
+2025-08-05 21:46:27,390 - steel_automation.core.validation - WARNING - Order SO-2024-8264: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,391 - steel_automation.core.validation - WARNING - Order SO-2024-8405: Email address is required
+2025-08-05 21:46:27,391 - steel_automation.core.validation - WARNING - Order SO-2024-9032: Steel grade 304SS should be Stainless Steel type, not Cold Rolled
+2025-08-05 21:46:27,392 - steel_automation.core.validation - WARNING - Order SO-2025-9692: Steel grade 304SS should be Stainless Steel type, not Tool Steel
+2025-08-05 21:46:27,394 - steel_automation.core.validation - WARNING - Order SO-2025-1100: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,394 - steel_automation.core.validation - WARNING - Order SO-2025-6314: Steel grade 201SS should be Stainless Steel type, not Cold Rolled
+2025-08-05 21:46:27,394 - steel_automation.core.validation - WARNING - Order SO-2025-7785: Email address is required
+2025-08-05 21:46:27,395 - steel_automation.core.validation - WARNING - Order SO-2024-1125: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,396 - steel_automation.core.validation - WARNING - Order SO-2024-4871: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,396 - steel_automation.core.validation - WARNING - Order SO-2025-6179: Steel grade 304SS should be Stainless Steel type, not Cold Rolled
+2025-08-05 21:46:27,397 - steel_automation.core.validation - WARNING - Order SO-2024-1932: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,397 - steel_automation.core.validation - WARNING - Order SO-2024-6267: Steel grade 316SS should be Stainless Steel type, not Galvanized
+2025-08-05 21:46:27,397 - steel_automation.core.validation - WARNING - Order SO-2025-8199: Steel grade 409SS should be Stainless Steel type, not Galvanized
+2025-08-05 21:46:27,397 - steel_automation.core.validation - WARNING - Order SO-2025-8199: Delivery date cannot be before production date
+2025-08-05 21:46:27,397 - steel_automation.core.validation - WARNING - Order SO-2025-8199: Email address is required
+2025-08-05 21:46:27,398 - steel_automation.core.validation - WARNING - Order SO-2024-3658: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,399 - steel_automation.core.validation - WARNING - Order SO-2025-4178: Steel grade 201SS should be Stainless Steel type, not Spring Steel
+2025-08-05 21:46:27,399 - steel_automation.core.validation - WARNING - Order SO-2024-8873: Steel grade 430SS should be Stainless Steel type, not Cold Rolled
+2025-08-05 21:46:27,399 - steel_automation.core.validation - WARNING - Order SO-2024-4637: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,399 - steel_automation.core.validation - WARNING - Order SO-2024-4637: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,400 - steel_automation.core.validation - WARNING - Order SO-2024-6493: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,400 - steel_automation.core.validation - WARNING - Order SO-2024-3449: Steel grade 409SS should be Stainless Steel type, not Tool Steel
+2025-08-05 21:46:27,400 - steel_automation.core.validation - WARNING - Order SO-2024-3449: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,401 - steel_automation.core.validation - WARNING - Order SO-2025-2108: Steel grade 430SS should be Stainless Steel type, not Hot Rolled
+2025-08-05 21:46:27,401 - steel_automation.core.validation - WARNING - Order SO-2025-2108: Email address is required
+2025-08-05 21:46:27,402 - steel_automation.core.validation - WARNING - Order SO-2024-5687: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,403 - steel_automation.core.validation - WARNING - Order SO-2024-3513: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,403 - steel_automation.core.validation - WARNING - Order SO-2024-3513: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-05 21:46:27,405 - steel_automation.core.validation - WARNING - Order SO-2025-3102: Steel grade 430SS should be Stainless Steel type, not Galvanized
+2025-08-05 21:46:27,406 - steel_automation.core.validation - WARNING - Order SO-2024-9159: Steel grade 430SS should be Stainless Steel type, not Carbon Steel
+2025-08-05 21:46:27,406 - steel_automation.core.validation - WARNING - Order SO-2024-9159: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,406 - steel_automation.core.validation - WARNING - Order SO-2025-4960: Production date cannot be before order date
+2025-08-05 21:46:27,408 - steel_automation.core.validation - WARNING - Order SO-2024-4125: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,409 - steel_automation.core.validation - WARNING - Order SO-2025-5890: Cannot ship rejected or rework items
+2025-08-05 21:46:27,410 - steel_automation.core.validation - WARNING - Order SO-2024-4804: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-05 21:46:27,411 - steel_automation.core.validation - WARNING - Order SO-2025-3662: Steel grade 304SS should be Stainless Steel type, not Carbon Steel
+2025-08-05 21:46:27,411 - steel_automation.core.validation - WARNING - Order SO-2025-2421: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-05 21:46:27,412 - steel_automation.core.validation - WARNING - Order SO-2024-9609: Steel grade 409SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,413 - steel_automation.core.validation - WARNING - Order SO-2025-2943: Steel grade 430SS should be Stainless Steel type, not Tool Steel
+2025-08-05 21:46:27,414 - steel_automation.core.validation - WARNING - Order SO-2025-4762: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,414 - steel_automation.core.validation - WARNING - Order SO-2025-4762: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,414 - steel_automation.core.validation - WARNING - Order SO-2024-2653: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,415 - steel_automation.core.validation - WARNING - Order SO-2025-5508: Steel grade 430SS should be Stainless Steel type, not Galvanized
+2025-08-05 21:46:27,415 - steel_automation.core.validation - WARNING - Order SO-2024-7498: Steel grade 430SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,416 - steel_automation.core.validation - WARNING - Order SO-2024-6404: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,417 - steel_automation.core.validation - WARNING - Order SO-2025-4015: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,418 - steel_automation.core.validation - WARNING - Order SO-2024-1149: Steel grade 409SS should be Stainless Steel type, not Spring Steel
+2025-08-05 21:46:27,419 - steel_automation.core.validation - WARNING - Order SO-2024-4463: Steel grade 201SS should be Stainless Steel type, not Spring Steel
+2025-08-05 21:46:27,421 - steel_automation.core.validation - WARNING - Order SO-2024-7525: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,427 - steel_automation.core.validation - WARNING - Order SO-2024-9537: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-05 21:46:27,432 - steel_automation.core.validation - WARNING - Order SO-2025-2211: Steel grade 316SS should be Stainless Steel type, not Tool Steel
+2025-08-05 21:46:27,433 - steel_automation.core.validation - WARNING - Order SO-2024-2791: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,436 - steel_automation.core.validation - WARNING - Order SO-2024-2901: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,440 - steel_automation.core.validation - WARNING - Order SO-2025-7703: Steel grade 316SS should be Stainless Steel type, not Tool Steel
+2025-08-05 21:46:27,441 - steel_automation.core.validation - WARNING - Order SO-2025-3755: Steel grade 304SS should be Stainless Steel type, not Spring Steel
+2025-08-05 21:46:27,444 - steel_automation.core.validation - WARNING - Order SO-2024-4882: Steel grade 201SS should be Stainless Steel type, not Alloy Steel
+2025-08-05 21:46:27,446 - steel_automation.core.validation - WARNING - Order SO-2024-5090: Rejected quality items must be Cancelled or require Rework
+2025-08-05 21:46:27,450 - steel_automation.core.validation - INFO - Validation completed: 105 valid, 83 invalid orders
+2025-08-05 21:46:27,451 - steel_automation.performance - INFO - Performance metrics: {'operation': 'data_validation', 'duration_seconds': 0.08883500099182129, 'records_processed': 188, 'records_per_second': 1181.9665540350134, 'memory_usage_mb': 101.625, 'memory_delta': 0.734375}
+2025-08-05 21:46:27,451 - __main__ - INFO - Validation completed: 105 valid orders
+2025-08-05 21:46:27,451 - __main__ - INFO - Validation success rate: 55.9%
+2025-08-05 21:46:27,451 - __main__ - INFO - Phase 2: Processing validated steel orders...
+2025-08-05 21:46:27,451 - steel_automation.performance - INFO - Performance metrics: {'operation': 'data_processing', 'duration_seconds': 0.00011706352233886719, 'records_processed': 105, 'records_per_second': 896948.9205702648, 'memory_usage_mb': 101.625, 'memory_delta': 0.0}
+2025-08-05 21:46:27,452 - __main__ - INFO - Processing completed for 105 orders
+2025-08-05 21:46:27,452 - __main__ - INFO - Phase 3: Sending customer notifications...
+2025-08-05 21:46:27,452 - steel_automation.services.email_service - INFO - Starting to send 105 order confirmation emails
+2025-08-05 21:46:27,453 - steel_automation.services.email_service - INFO - Sending emails to 105 customers with valid email addresses
+2025-08-05 21:46:29,652 - steel_automation.services.email_service - INFO - Email sending completed in 2.20s
+2025-08-05 21:46:29,652 - steel_automation.services.email_service - INFO - Success rate: 100.0% (105/105)
+2025-08-05 21:46:29,652 - steel_automation.performance - INFO - Performance metrics: {'operation': 'email_processing', 'duration_seconds': 2.2003872394561768, 'records_processed': 105, 'records_per_second': 47.718873349743035, 'memory_usage_mb': 101.96875, 'memory_delta': 0.34375}
+2025-08-05 21:46:29,652 - __main__ - INFO - Email notifications completed: 105 sent successfully
+2025-08-05 21:46:29,652 - __main__ - INFO - Phase 4: Generating reports...
+2025-08-05 21:46:29,653 - steel_automation.services.reporting - INFO - Generating comprehensive steel industry reports to reports/
+2025-08-05 21:46:29,666 - steel_automation.services.reporting - INFO - Generated order summary for 105 orders
+2025-08-05 21:46:29,672 - steel_automation.services.reporting - INFO - Generated production metrics
+2025-08-05 21:46:29,678 - steel_automation.services.reporting - INFO - Generated quality analysis
+2025-08-05 21:46:29,685 - steel_automation.services.reporting - INFO - Generated customer analytics
+2025-08-05 21:46:29,687 - steel_automation.services.reporting - INFO - Saved report steel_order_summary_20250805_214629 in 2 formats
+2025-08-05 21:46:29,687 - steel_automation.services.reporting - INFO - Saved report steel_production_metrics_20250805_214629 in 1 formats
+2025-08-05 21:46:29,688 - steel_automation.services.reporting - INFO - Saved report steel_quality_analysis_20250805_214629 in 1 formats
+2025-08-05 21:46:29,688 - steel_automation.services.reporting - INFO - Saved report steel_customer_analytics_20250805_214629 in 1 formats
+2025-08-05 21:46:29,689 - steel_automation.services.reporting - INFO - Saved report steel_system_performance_20250805_214629 in 1 formats
+2025-08-05 21:46:29,690 - steel_automation.services.reporting - INFO - Saved report steel_automation_summary_20250805_214629 in 1 formats
+2025-08-05 21:46:29,690 - steel_automation.services.reporting - INFO - Generated 7 report files
+2025-08-05 21:46:29,690 - steel_automation.performance - INFO - Performance metrics: {'operation': 'report_generation', 'duration_seconds': 0.03759503364562988, 'records_processed': 105, 'records_per_second': 186.19480610077053, 'memory_usage_mb': 102.796875, 'memory_delta': 0.828125}
+2025-08-05 21:46:29,690 - __main__ - INFO - Reports generated: 7 files created
+2025-08-05 21:46:29,690 - __main__ - INFO - ============================================================
+2025-08-05 21:46:29,690 - __main__ - INFO - STEEL AUTOMATION COMPLETED SUCCESSFULLY
+2025-08-05 21:46:29,690 - __main__ - INFO - ============================================================
+2025-08-05 21:46:29,690 - __main__ - INFO - Orders processed: 105
+2025-08-05 21:46:29,690 - __main__ - INFO - Email success rate: 100.0%
+2025-08-05 21:46:29,690 - __main__ - INFO - Steel automation system shutdown

@@ -1,0 +1,234 @@
+{
+  "timestamp": "2025-08-05T21:46:29.666218",
+  "production_overview": {
+    "Line-E1": {
+      "total_orders": 10,
+      "total_weight": 78477.52,
+      "total_value": 124515.78,
+      "average_order_size": 7847.752,
+      "quality_distribution": {
+        "Rework": 4,
+        "C": 4,
+        "B": 1,
+        "A": 1
+      },
+      "status_distribution": {
+        "Pending": 3,
+        "Quality Check": 2,
+        "Delivered": 2,
+        "Ready": 2,
+        "Rework Required": 1
+      },
+      "quality_rate": 20.0,
+      "completion_rate": 40.0
+    },
+    "Line-C2": {
+      "total_orders": 15,
+      "total_weight": 134549.57,
+      "total_value": 252536.19000000003,
+      "average_order_size": 8969.971333333333,
+      "quality_distribution": {
+        "A": 5,
+        "C": 4,
+        "Rework": 3,
+        "B": 2,
+        "Reject": 1
+      },
+      "status_distribution": {
+        "Rework Required": 4,
+        "Cancelled": 4,
+        "Hold": 2,
+        "Ready": 2,
+        "In Production": 1,
+        "Pending": 1,
+        "Shipped": 1
+      },
+      "quality_rate": 46.666666666666664,
+      "completion_rate": 20.0
+    },
+    "Line-B2": {
+      "total_orders": 9,
+      "total_weight": 90106.15000000001,
+      "total_value": 148606.61000000002,
+      "average_order_size": 10011.794444444446,
+      "quality_distribution": {
+        "A": 7,
+        "C": 2
+      },
+      "status_distribution": {
+        "Pending": 3,
+        "In Production": 2,
+        "Hold": 2,
+        "Rework Required": 1,
+        "Delivered": 1
+      },
+      "quality_rate": 77.77777777777779,
+      "completion_rate": 11.11111111111111
+    },
+    "Line-A2": {
+      "total_orders": 8,
+      "total_weight": 69112.29000000001,
+      "total_value": 95978.17,
+      "average_order_size": 8639.036250000001,
+      "quality_distribution": {
+        "Rework": 3,
+        "B": 3,
+        "C": 2
+      },
+      "status_distribution": {
+        "Rework Required": 3,
+        "In Production": 2,
+        "Quality Check": 1,
+        "Cancelled": 1,
+        "Delivered": 1
+      },
+      "quality_rate": 37.5,
+      "completion_rate": 12.5
+    },
+    "Line-C1": {
+      "total_orders": 8,
+      "total_weight": 99016.01000000001,
+      "total_value": 153011.78,
+      "average_order_size": 12377.001250000001,
+      "quality_distribution": {
+        "B": 3,
+        "Rework": 2,
+        "C": 1,
+        "A": 1,
+        "Reject": 1
+      },
+      "status_distribution": {
+        "Delivered": 2,
+        "Hold": 2,
+        "Pending": 2,
+        "In Production": 1,
+        "Cancelled": 1
+      },
+      "quality_rate": 50.0,
+      "completion_rate": 25.0
+    },
+    "Line-B1": {
+      "total_orders": 13,
+      "total_weight": 115103.75,
+      "total_value": 168442.91000000003,
+      "average_order_size": 8854.134615384615,
+      "quality_distribution": {
+        "A": 5,
+        "Rework": 4,
+        "C": 2,
+        "B": 2
+      },
+      "status_distribution": {
+        "Hold": 2,
+        "Delivered": 2,
+        "In Production": 2,
+        "Cancelled": 2,
+        "Quality Check": 2,
+        "Rework Required": 1,
+        "Ready": 1,
+        "Pending": 1
+      },
+      "quality_rate": 53.84615384615385,
+      "completion_rate": 23.076923076923077
+    },
+    "Line-D1": {
+      "total_orders": 9,
+      "total_weight": 61448.72,
+      "total_value": 71300.45000000001,
+      "average_order_size": 6827.635555555556,
+      "quality_distribution": {
+        "Reject": 3,
+        "Rework": 2,
+        "B": 2,
+        "A": 2
+      },
+      "status_distribution": {
+        "Cancelled": 3,
+        "Rework Required": 2,
+        "Pending": 1,
+        "Hold": 1,
+        "In Production": 1,
+        "Delivered": 1
+      },
+      "quality_rate": 44.44444444444444,
+      "completion_rate": 11.11111111111111
+    },
+    "Line-A1": {
+      "total_orders": 7,
+      "total_weight": 77520.59000000001,
+      "total_value": 158198.88,
+      "average_order_size": 11074.37,
+      "quality_distribution": {
+        "B": 3,
+        "C": 3,
+        "A": 1
+      },
+      "status_distribution": {
+        "Delivered": 2,
+        "Quality Check": 1,
+        "Shipped": 1,
+        "Hold": 1,
+        "Cancelled": 1,
+        "In Production": 1
+      },
+      "quality_rate": 57.14285714285714,
+      "completion_rate": 42.857142857142854
+    },
+    "Line-E2": {
+      "total_orders": 10,
+      "total_weight": 68605.15,
+      "total_value": 72127.16,
+      "average_order_size": 6860.514999999999,
+      "quality_distribution": {
+        "B": 4,
+        "C": 3,
+        "A": 1,
+        "Rework": 1,
+        "Reject": 1
+      },
+      "status_distribution": {
+        "Cancelled": 3,
+        "Pending": 2,
+        "Rework Required": 2,
+        "Quality Check": 1,
+        "Ready": 1,
+        "Shipped": 1
+      },
+      "quality_rate": 50.0,
+      "completion_rate": 20.0
+    },
+    "Line-D2": {
+      "total_orders": 16,
+      "total_weight": 165238.41999999998,
+      "total_value": 272564.41,
+      "average_order_size": 10327.401249999999,
+      "quality_distribution": {
+        "A": 5,
+        "Rework": 4,
+        "C": 4,
+        "B": 3
+      },
+      "status_distribution": {
+        "In Production": 4,
+        "Hold": 2,
+        "Ready": 2,
+        "Rework Required": 2,
+        "Shipped": 2,
+        "Cancelled": 1,
+        "Delivered": 1,
+        "Pending": 1,
+        "Quality Check": 1
+      },
+      "quality_rate": 50.0,
+      "completion_rate": 31.25
+    }
+  },
+  "overall_metrics": {
+    "total_orders": 105,
+    "completion_rate": 23.809523809523807,
+    "quality_rate": 48.57142857142857,
+    "average_order_value": 14450.308000000003,
+    "total_production_value": 1517282.3400000003,
+    "total_production_weight": 959178.17
+  }
+}

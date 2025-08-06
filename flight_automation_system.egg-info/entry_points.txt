@@ -1,3 +1,0 @@
-[console_scripts]
-flight-automation = scripts.run_automation:main
-generate-data = scripts.generate_data:main

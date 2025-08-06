@@ -1,81 +1,53 @@
 version: '3.8'
 
 services:
-  flight-automation:
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    container_name: flight-automation-app
+  steel-automation:
+    build: .
+    image: steel-automation:latest
+    container_name: steel-automation-app
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - ./logs:/app/logs
+      - ./config:/app/config
     environment:
       - PYTHONPATH=/app
-      - LOG_LEVEL=INFO
-    volumes:
-      # Mount data, logs, and reports for persistence
-      - ./data:/app/data
-      - ./logs:/app/logs
-      - ./reports:/app/reports
-      - ./config:/app/config:ro  # Read-only config
+      - STEEL_CONFIG_PATH=/app/config/settings.yaml
+    command: python main_steel.py --data data/steel_orders.csv --output reports
+    depends_on:
+      - redis
+      - postgres
     networks:
-      - automation-network
-    restart: unless-stopped
-    command: ["python", "scripts/run_automation.py", "--config", "/app/config/settings.yaml"]
+      - steel-network
 
-  # Optional: Redis for caching (future enhancement)
   redis:
     image: redis:7-alpine
-    container_name: flight-automation-redis
+    container_name: steel-automation-redis
     ports:
       - "6379:6379"
     volumes:
       - redis_data:/data
     networks:
-      - automation-network
-    restart: unless-stopped
-    command: redis-server --appendonly yes
+      - steel-network
 
-  # Optional: PostgreSQL for data persistence (future enhancement)
   postgres:
     image: postgres:15-alpine
-    container_name: flight-automation-db
+    container_name: steel-automation-db
     environment:
-      POSTGRES_DB: flight_automation
-      POSTGRES_USER: automation_user
-      POSTGRES_PASSWORD: automation_pass
-    ports:
-      - "5432:5432"
+      POSTGRES_DB: steel_automation
+      POSTGRES_USER: steel_user
+      POSTGRES_PASSWORD: steel_password
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
-    networks:
-      - automation-network
-    restart: unless-stopped
-
-  # Monitoring with Prometheus (optional)
-  prometheus:
-    image: prom/prometheus:latest
-    container_name: flight-automation-prometheus
     ports:
-      - "9090:9090"
-    volumes:
-      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
-      - prometheus_data:/prometheus
+      - "5432:5432"
     networks:
-      - automation-network
-    restart: unless-stopped
-    command:
-      - '--config.file=/etc/prometheus/prometheus.yml'
-      - '--storage.tsdb.path=/prometheus'
-      - '--web.console.libraries=/etc/prometheus/console_libraries'
-      - '--web.console.templates=/etc/prometheus/consoles'
-
-networks:
-  automation-network:
-    driver: bridge
+      - steel-network
 
 volumes:
   redis_data:
-    driver: local
   postgres_data:
-    driver: local
-  prometheus_data:
-    driver: local
+
+networks:
+  steel-network:
+    driver: bridge

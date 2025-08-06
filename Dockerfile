@@ -1,12 +1,13 @@
 # Use Python 3.11 slim image for smaller size
 FROM python:3.11-slim
 
-# Set environment variables
+# Set environment variables for steel automation
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PYTHONPATH=/app \
     PIP_NO_CACHE_DIR=1 \
-    PIP_DISABLE_PIP_VERSION_CHECK=1
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    STEEL_AUTOMATION_ENV=production
 
 # Set work directory
 WORKDIR /app
@@ -42,7 +43,7 @@ EXPOSE 8000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD python -c "import flight_automation; print('OK')" || exit 1
+    CMD python -c "import steel_automation; print('OK')" || exit 1
 
 # Default command
-CMD ["python", "scripts/run_automation.py", "--help"]
+CMD ["python", "main_steel.py", "--help"]

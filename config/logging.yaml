@@ -58,31 +58,29 @@ handlers:
     encoding: utf8
 
 loggers:
-  flight_automation:
+  steel_automation:
     level: INFO
     handlers: [console, file_info, file_error]
     propagate: false
   
-  flight_automation.core:
-    level: DEBUG
-    handlers: [file_info]
-    propagate: true
-  
-  flight_automation.services:
+  steel_automation.core:
     level: INFO
-    handlers: [file_info]
-    propagate: true
-  
-  flight_automation.performance:
-    level: INFO
-    handlers: [file_performance]
-    propagate: false
-  
-  flight_automation.audit:
-    level: INFO
-    handlers: [file_audit]
+    handlers: [console, file, audit]
     propagate: false
 
-root:
+  steel_automation.services:
+    level: INFO
+    handlers: [console, file, audit]
+    propagate: false
+
+  steel_automation.performance:
+    level: DEBUG
+    handlers: [console, performance]
+    propagate: false
+
+  steel_automation.audit:
+    level: INFO
+    handlers: [audit]
+    propagate: falseroot:
   level: WARNING
   handlers: [console]

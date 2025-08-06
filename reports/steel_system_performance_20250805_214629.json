@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-08-05T21:46:29.685658",
+  "validation_summary": {
+    "validation_stats": {
+      "total_records_validated": 188,
+      "valid_records": 105,
+      "invalid_records": 83,
+      "error_categories": {
+        "General": 94
+      }
+    },
+    "error_details": [
+      "Order SO-2024-9609: Steel grade 409SS should be Stainless Steel type, not Alloy Steel",
+      "Order SO-2025-2943: Steel grade 430SS should be Stainless Steel type, not Tool Steel",
+      "Order SO-2025-4762: Steel grade 304SS should be Stainless Steel type, not Alloy Steel",
+      "Order SO-2025-4762: Rejected quality items must be Cancelled or require Rework",
+      "Order SO-2024-2653: Rejected quality items must be Cancelled or require Rework",
+      "Order SO-2025-5508: Steel grade 430SS should be Stainless Steel type, not Galvanized",
+      "Order SO-2024-7498: Steel grade 430SS should be Stainless Steel type, not Alloy Steel",
+      "Order SO-2024-6404: Rejected quality items must be Cancelled or require Rework",
+      "Order SO-2025-4015: Rejected quality items must be Cancelled or require Rework",
+      "Order SO-2024-1149: Steel grade 409SS should be Stainless Steel type, not Spring Steel",
+      "Order SO-2024-4463: Steel grade 201SS should be Stainless Steel type, not Spring Steel",
+      "Order SO-2024-7525: Rejected quality items must be Cancelled or require Rework",
+      "Order SO-2024-9537: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items",
+      "Order SO-2025-2211: Steel grade 316SS should be Stainless Steel type, not Tool Steel",
+      "Order SO-2024-2791: Rejected quality items must be Cancelled or require Rework",
+      "Order SO-2024-2901: Rejected quality items must be Cancelled or require Rework",
+      "Order SO-2025-7703: Steel grade 316SS should be Stainless Steel type, not Tool Steel",
+      "Order SO-2025-3755: Steel grade 304SS should be Stainless Steel type, not Spring Steel",
+      "Order SO-2024-4882: Steel grade 201SS should be Stainless Steel type, not Alloy Steel",
+      "Order SO-2024-5090: Rejected quality items must be Cancelled or require Rework"
+    ],
+    "error_categories": {
+      "General": 94
+    }
+  },
+  "email_statistics": {
+    "email_stats": {
+      "total_emails_sent": 105,
+      "successful_emails": 105,
+      "failed_emails": 0,
+      "processing_time": 2.1998291015625,
+      "errors": []
+    },
+    "performance_metrics": {
+      "emails_per_second": 47.73098052272349,
+      "success_rate": 100.0,
+      "failure_rate": 0.0
+    }
+  },
+  "data_processing": {
+    "total_orders_processed": 105,
+    "processing_date": "20250805_214629"
+  }
+}
