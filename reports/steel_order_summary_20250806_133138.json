@@ -1,0 +1,214 @@
+{
+  "timestamp": "2025-08-06T13:31:38.681172",
+  "total_orders": 105,
+  "total_value": 1517282.3400000003,
+  "total_weight": 959178.17,
+  "average_order_value": 14450.308000000003,
+  "average_weight": 9135.030190476191,
+  "status_breakdown": {
+    "Rework Required": 16,
+    "Cancelled": 16,
+    "Pending": 14,
+    "In Production": 14,
+    "Delivered": 12,
+    "Hold": 12,
+    "Quality Check": 8,
+    "Ready": 8,
+    "Shipped": 5
+  },
+  "steel_grade_analysis": {
+    "201SS": {
+      "order_count": 1,
+      "total_value": 5571.13,
+      "average_value": 5571.13,
+      "total_weight": 9892.97,
+      "average_weight": 9892.97
+    },
+    "409SS": {
+      "order_count": 1,
+      "total_value": 8330.85,
+      "average_value": 8330.85,
+      "total_weight": 5385.27,
+      "average_weight": 5385.27
+    },
+    "A242": {
+      "order_count": 10,
+      "total_value": 302714.37,
+      "average_value": 30271.44,
+      "total_weight": 149736.04,
+      "average_weight": 14973.6
+    },
+    "A36": {
+      "order_count": 2,
+      "total_value": 13911.81,
+      "average_value": 6955.91,
+      "total_weight": 11695.03,
+      "average_weight": 5847.52
+    },
+    "A514": {
+      "order_count": 8,
+      "total_value": 79437.84,
+      "average_value": 9929.73,
+      "total_weight": 61828.35,
+      "average_weight": 7728.54
+    },
+    "A572-50": {
+      "order_count": 3,
+      "total_value": 45371.83,
+      "average_value": 15123.94,
+      "total_weight": 33103.33,
+      "average_weight": 11034.44
+    },
+    "A588": {
+      "order_count": 11,
+      "total_value": 133531.29,
+      "average_value": 12139.21,
+      "total_weight": 96844.57,
+      "average_weight": 8804.05
+    },
+    "A709-50": {
+      "order_count": 10,
+      "total_value": 134536.25,
+      "average_value": 13453.62,
+      "total_weight": 75837.37,
+      "average_weight": 7583.74
+    },
+    "A992": {
+      "order_count": 4,
+      "total_value": 61362.01,
+      "average_value": 15340.5,
+      "total_weight": 31813.08,
+      "average_weight": 7953.27
+    },
+    "Q235": {
+      "order_count": 10,
+      "total_value": 144864.77,
+      "average_value": 14486.48,
+      "total_weight": 99611.08,
+      "average_weight": 9961.11
+    },
+    "Q345": {
+      "order_count": 7,
+      "total_value": 120576.34,
+      "average_value": 17225.19,
+      "total_weight": 92640.84,
+      "average_weight": 13234.41
+    },
+    "S235": {
+      "order_count": 9,
+      "total_value": 166885.35,
+      "average_value": 18542.82,
+      "total_weight": 98794.31,
+      "average_weight": 10977.15
+    },
+    "S275": {
+      "order_count": 8,
+      "total_value": 66149.92,
+      "average_value": 8268.74,
+      "total_weight": 56823.34,
+      "average_weight": 7102.92
+    },
+    "S355": {
+      "order_count": 5,
+      "total_value": 44880.82,
+      "average_value": 8976.16,
+      "total_weight": 24970.67,
+      "average_weight": 4994.13
+    },
+    "S420": {
+      "order_count": 7,
+      "total_value": 131455.59,
+      "average_value": 18779.37,
+      "total_weight": 67725.1,
+      "average_weight": 9675.01
+    },
+    "S460": {
+      "order_count": 9,
+      "total_value": 57702.17,
+      "average_value": 6411.35,
+      "total_weight": 42476.82,
+      "average_weight": 4719.65
+    }
+  },
+  "production_line_utilization": {
+    "Line-D2": 16,
+    "Line-C2": 15,
+    "Line-B1": 13,
+    "Line-E1": 10,
+    "Line-E2": 10,
+    "Line-B2": 9,
+    "Line-D1": 9,
+    "Line-A2": 8,
+    "Line-C1": 8,
+    "Line-A1": 7
+  },
+  "quality_distribution": {
+    "A": 28,
+    "C": 25,
+    "Rework": 23,
+    "B": 23,
+    "Reject": 6
+  },
+  "top_customers": {
+    "Martin-Allen": {
+      "order_count": 1,
+      "total_value": 82487.43,
+      "total_weight": 36136.54
+    },
+    "Wilson Ltd": {
+      "order_count": 1,
+      "total_value": 60892.72,
+      "total_weight": 25024.03
+    },
+    "Washington, Allen and Gonzales": {
+      "order_count": 1,
+      "total_value": 59984.88,
+      "total_weight": 27054.46
+    },
+    "Johnson, Cohen and Roberson": {
+      "order_count": 1,
+      "total_value": 58926.3,
+      "total_weight": 24272.88
+    },
+    "Mckee, Gardner and Davenport": {
+      "order_count": 1,
+      "total_value": 48007.16,
+      "total_weight": 20526.67
+    },
+    "Carter, Armstrong and Farley": {
+      "order_count": 1,
+      "total_value": 43153.94,
+      "total_weight": 17871.57
+    },
+    "Frazier, Smith and Dominguez": {
+      "order_count": 1,
+      "total_value": 38468.82,
+      "total_weight": 16610.96
+    },
+    "Reynolds Inc": {
+      "order_count": 1,
+      "total_value": 37270.83,
+      "total_weight": 15906.77
+    },
+    "Reyes-Johnson": {
+      "order_count": 1,
+      "total_value": 37154.1,
+      "total_weight": 15870.36
+    },
+    "Howard, Evans and Jackson": {
+      "order_count": 1,
+      "total_value": 35122.53,
+      "total_weight": 18193.77
+    }
+  },
+  "warehouse_distribution": {
+    "WH-Reserve": 17,
+    "WH-Domestic": 16,
+    "WH-Central": 15,
+    "WH-South": 14,
+    "WH-East": 13,
+    "WH-North": 11,
+    "WH-West": 10,
+    "WH-Export": 9
+  }
+}

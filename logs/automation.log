@@ -148,3 +148,172 @@
 2025-08-05 21:46:29,690 - __main__ - INFO - Orders processed: 105
 2025-08-05 21:46:29,690 - __main__ - INFO - Email success rate: 100.0%
 2025-08-05 21:46:29,690 - __main__ - INFO - Steel automation system shutdown
+2025-08-06 13:31:32,751 - root - ERROR - Failed to load logging config: mapping values are not allowed here
+  in "/Users/muhammadhassannaeem/Desktop/ConcordiaUniversity/LR-Robotic Process Automation/Fourth Assignment/RPA-Automation-Week-4/steel_automation/utils/../../config/logging.yaml", line 84, column 25
+2025-08-06 13:31:32,764 - steel_automation.core.data_processor - INFO - Loading steel orders from data/steel_orders.csv
+2025-08-06 13:31:32,772 - steel_automation.core.data_processor - INFO - Loaded 205 steel order records
+2025-08-06 13:31:32,772 - steel_automation.core.data_processor - INFO - Starting optimized cleaning of 205 steel orders
+2025-08-06 13:31:32,774 - steel_automation.core.data_processor - INFO - Removed 6 duplicate orders
+2025-08-06 13:31:32,777 - steel_automation.core.data_processor - INFO - Optimized cleaning completed in 0.01s
+2025-08-06 13:31:32,777 - steel_automation.core.data_processor - INFO - Valid orders: 188, Invalid: 11
+2025-08-06 13:31:32,791 - steel_automation.core.data_processor - INFO - Steel order processing completed successfully
+2025-08-06 13:31:32,791 - steel_automation.core.validation - INFO - Starting validation of 10 steel orders
+2025-08-06 13:31:32,795 - steel_automation.core.validation - WARNING - Order SO-2024-9279: Carbon steel grade A36 cannot be Stainless Steel type
+2025-08-06 13:31:32,798 - steel_automation.core.validation - WARNING - Order SO-2025-7482: Steel grade 304SS should be Stainless Steel type, not Galvanized
+2025-08-06 13:31:32,798 - steel_automation.core.validation - WARNING - Order SO-2024-9348: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:32,799 - steel_automation.core.validation - WARNING - Order SO-2024-2876: Steel grade 430SS should be Stainless Steel type, not Carbon Steel
+2025-08-06 13:31:32,800 - steel_automation.core.validation - INFO - Validation completed: 6 valid, 4 invalid orders
+2025-08-06 13:31:33,342 - root - ERROR - Failed to load logging config: mapping values are not allowed here
+  in "/Users/muhammadhassannaeem/Desktop/ConcordiaUniversity/LR-Robotic Process Automation/Fourth Assignment/RPA-Automation-Week-4/steel_automation/utils/../../config/logging.yaml", line 84, column 25
+2025-08-06 13:31:33,350 - __main__ - INFO - ============================================================
+2025-08-06 13:31:33,350 - __main__ - INFO - STEEL INDUSTRY AUTOMATION SYSTEM STARTED
+2025-08-06 13:31:33,350 - __main__ - INFO - ============================================================
+2025-08-06 13:31:33,350 - __main__ - INFO - Data file: data/steel_orders.csv
+2025-08-06 13:31:33,351 - __main__ - INFO - Output directory: reports/
+2025-08-06 13:31:33,351 - __main__ - INFO - Dry run mode: False
+2025-08-06 13:31:33,353 - __main__ - INFO - Configuration loaded from config/settings.yaml
+2025-08-06 13:31:33,354 - __main__ - INFO - Initializing steel automation components...
+2025-08-06 13:31:33,354 - __main__ - INFO - Phase 1: Loading and validating steel orders...
+2025-08-06 13:31:33,354 - steel_automation.core.data_processor - INFO - Loading steel orders from data/steel_orders.csv
+2025-08-06 13:31:33,359 - steel_automation.core.data_processor - INFO - Loaded 205 steel order records
+2025-08-06 13:31:33,359 - steel_automation.core.data_processor - INFO - Starting optimized cleaning of 205 steel orders
+2025-08-06 13:31:33,359 - steel_automation.core.data_processor - INFO - Removed 6 duplicate orders
+2025-08-06 13:31:33,361 - steel_automation.core.data_processor - INFO - Optimized cleaning completed in 0.00s
+2025-08-06 13:31:33,361 - steel_automation.core.data_processor - INFO - Valid orders: 188, Invalid: 11
+2025-08-06 13:31:33,371 - steel_automation.core.data_processor - INFO - Steel order processing completed successfully
+2025-08-06 13:31:33,371 - steel_automation.performance - INFO - Performance metrics: {'operation': 'data_loading', 'duration_seconds': 0.017635822296142578, 'records_processed': 0, 'records_per_second': 10660.12102203596, 'memory_usage_mb': 101.0625, 'memory_delta': 1.625}
+2025-08-06 13:31:33,371 - __main__ - INFO - Loaded 188 steel order records
+2025-08-06 13:31:33,371 - steel_automation.core.validation - INFO - Starting validation of 188 steel orders
+2025-08-06 13:31:33,373 - steel_automation.core.validation - WARNING - Order SO-2024-9279: Carbon steel grade A36 cannot be Stainless Steel type
+2025-08-06 13:31:33,376 - steel_automation.core.validation - WARNING - Order SO-2025-7482: Steel grade 304SS should be Stainless Steel type, not Galvanized
+2025-08-06 13:31:33,376 - steel_automation.core.validation - WARNING - Order SO-2024-9348: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,376 - steel_automation.core.validation - WARNING - Order SO-2024-2876: Steel grade 430SS should be Stainless Steel type, not Carbon Steel
+2025-08-06 13:31:33,377 - steel_automation.core.validation - WARNING - Order SO-2025-6038: Carbon steel grade A572-50 cannot be Stainless Steel type
+2025-08-06 13:31:33,378 - steel_automation.core.validation - WARNING - Order SO-2024-2049: Carbon steel grade A36 cannot be Stainless Steel type
+2025-08-06 13:31:33,378 - steel_automation.core.validation - WARNING - Order SO-2024-8062: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,380 - steel_automation.core.validation - WARNING - Order SO-2025-9565: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,382 - steel_automation.core.validation - WARNING - Order SO-2024-4269: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,382 - steel_automation.core.validation - WARNING - Order SO-2024-4269: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,383 - steel_automation.core.validation - WARNING - Order SO-2025-6753: Steel grade 409SS should be Stainless Steel type, not Tool Steel
+2025-08-06 13:31:33,384 - steel_automation.core.validation - WARNING - Order SO-2024-6967: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-06 13:31:33,385 - steel_automation.core.validation - WARNING - Order SO-2025-4501: Steel grade 316SS should be Stainless Steel type, not Galvanized
+2025-08-06 13:31:33,385 - steel_automation.core.validation - WARNING - Order SO-2024-4262: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,387 - steel_automation.core.validation - WARNING - Order SO-2024-5543: Steel grade 409SS should be Stainless Steel type, not Spring Steel
+2025-08-06 13:31:33,388 - steel_automation.core.validation - WARNING - Order SO-2025-6507: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,388 - steel_automation.core.validation - WARNING - Order SO-2024-8705: Steel grade 430SS should be Stainless Steel type, not Hot Rolled
+2025-08-06 13:31:33,390 - steel_automation.core.validation - WARNING - Order SO-2025-9817: Steel grade 316SS should be Stainless Steel type, not Spring Steel
+2025-08-06 13:31:33,390 - steel_automation.core.validation - WARNING - Order SO-2025-6511: Steel grade 316SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,391 - steel_automation.core.validation - WARNING - Order SO-2024-6016: Steel grade 201SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,392 - steel_automation.core.validation - WARNING - Order SO-2024-9042: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,393 - steel_automation.core.validation - WARNING - Order SO-2025-8381: Steel grade 316SS should be Stainless Steel type, not Carbon Steel
+2025-08-06 13:31:33,394 - steel_automation.core.validation - WARNING - Order SO-2024-3441: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-06 13:31:33,395 - steel_automation.core.validation - WARNING - Order SO-2025-9199: Steel grade 316SS should be Stainless Steel type, not Spring Steel
+2025-08-06 13:31:33,395 - steel_automation.core.validation - WARNING - Order SO-2025-1659: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,395 - steel_automation.core.validation - WARNING - Order SO-2025-2713: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-06 13:31:33,396 - steel_automation.core.validation - WARNING - Order SO-2025-8178: Steel grade 316SS should be Stainless Steel type, not Cold Rolled
+2025-08-06 13:31:33,397 - steel_automation.core.validation - WARNING - Order SO-2025-3434: Steel grade 430SS should be Stainless Steel type, not Spring Steel
+2025-08-06 13:31:33,397 - steel_automation.core.validation - WARNING - Order SO-2025-1715: Steel grade 316SS should be Stainless Steel type, not Tool Steel
+2025-08-06 13:31:33,397 - steel_automation.core.validation - WARNING - Order SO-2025-2633: Steel grade 304SS should be Stainless Steel type, not Hot Rolled
+2025-08-06 13:31:33,398 - steel_automation.core.validation - WARNING - Order SO-2025-2633: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,398 - steel_automation.core.validation - WARNING - Order SO-2025-2315: Cannot ship rejected or rework items
+2025-08-06 13:31:33,399 - steel_automation.core.validation - WARNING - Order SO-2024-8622: Steel grade 430SS should be Stainless Steel type, not Galvanized
+2025-08-06 13:31:33,399 - steel_automation.core.validation - WARNING - Order SO-2025-8916: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,401 - steel_automation.core.validation - WARNING - Order SO-2024-2035: Steel grade 304SS should be Stainless Steel type, not Carbon Steel
+2025-08-06 13:31:33,401 - steel_automation.core.validation - WARNING - Order SO-2024-2035: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,402 - steel_automation.core.validation - WARNING - Order SO-2024-7367: Unit price must be positive
+2025-08-06 13:31:33,402 - steel_automation.core.validation - WARNING - Order SO-2024-8264: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,403 - steel_automation.core.validation - WARNING - Order SO-2024-8405: Email address is required
+2025-08-06 13:31:33,404 - steel_automation.core.validation - WARNING - Order SO-2024-9032: Steel grade 304SS should be Stainless Steel type, not Cold Rolled
+2025-08-06 13:31:33,404 - steel_automation.core.validation - WARNING - Order SO-2025-9692: Steel grade 304SS should be Stainless Steel type, not Tool Steel
+2025-08-06 13:31:33,406 - steel_automation.core.validation - WARNING - Order SO-2025-1100: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,406 - steel_automation.core.validation - WARNING - Order SO-2025-6314: Steel grade 201SS should be Stainless Steel type, not Cold Rolled
+2025-08-06 13:31:33,407 - steel_automation.core.validation - WARNING - Order SO-2025-7785: Email address is required
+2025-08-06 13:31:33,407 - steel_automation.core.validation - WARNING - Order SO-2024-1125: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,409 - steel_automation.core.validation - WARNING - Order SO-2024-4871: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,409 - steel_automation.core.validation - WARNING - Order SO-2025-6179: Steel grade 304SS should be Stainless Steel type, not Cold Rolled
+2025-08-06 13:31:33,410 - steel_automation.core.validation - WARNING - Order SO-2024-1932: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,410 - steel_automation.core.validation - WARNING - Order SO-2024-6267: Steel grade 316SS should be Stainless Steel type, not Galvanized
+2025-08-06 13:31:33,410 - steel_automation.core.validation - WARNING - Order SO-2025-8199: Steel grade 409SS should be Stainless Steel type, not Galvanized
+2025-08-06 13:31:33,410 - steel_automation.core.validation - WARNING - Order SO-2025-8199: Delivery date cannot be before production date
+2025-08-06 13:31:33,410 - steel_automation.core.validation - WARNING - Order SO-2025-8199: Email address is required
+2025-08-06 13:31:33,411 - steel_automation.core.validation - WARNING - Order SO-2024-3658: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,412 - steel_automation.core.validation - WARNING - Order SO-2025-4178: Steel grade 201SS should be Stainless Steel type, not Spring Steel
+2025-08-06 13:31:33,412 - steel_automation.core.validation - WARNING - Order SO-2024-8873: Steel grade 430SS should be Stainless Steel type, not Cold Rolled
+2025-08-06 13:31:33,413 - steel_automation.core.validation - WARNING - Order SO-2024-4637: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,413 - steel_automation.core.validation - WARNING - Order SO-2024-4637: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,413 - steel_automation.core.validation - WARNING - Order SO-2024-6493: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,413 - steel_automation.core.validation - WARNING - Order SO-2024-3449: Steel grade 409SS should be Stainless Steel type, not Tool Steel
+2025-08-06 13:31:33,413 - steel_automation.core.validation - WARNING - Order SO-2024-3449: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,414 - steel_automation.core.validation - WARNING - Order SO-2025-2108: Steel grade 430SS should be Stainless Steel type, not Hot Rolled
+2025-08-06 13:31:33,414 - steel_automation.core.validation - WARNING - Order SO-2025-2108: Email address is required
+2025-08-06 13:31:33,415 - steel_automation.core.validation - WARNING - Order SO-2024-5687: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,417 - steel_automation.core.validation - WARNING - Order SO-2024-3513: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,417 - steel_automation.core.validation - WARNING - Order SO-2024-3513: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-06 13:31:33,419 - steel_automation.core.validation - WARNING - Order SO-2025-3102: Steel grade 430SS should be Stainless Steel type, not Galvanized
+2025-08-06 13:31:33,420 - steel_automation.core.validation - WARNING - Order SO-2024-9159: Steel grade 430SS should be Stainless Steel type, not Carbon Steel
+2025-08-06 13:31:33,420 - steel_automation.core.validation - WARNING - Order SO-2024-9159: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,421 - steel_automation.core.validation - WARNING - Order SO-2025-4960: Production date cannot be before order date
+2025-08-06 13:31:33,423 - steel_automation.core.validation - WARNING - Order SO-2024-4125: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,424 - steel_automation.core.validation - WARNING - Order SO-2025-5890: Cannot ship rejected or rework items
+2025-08-06 13:31:33,426 - steel_automation.core.validation - WARNING - Order SO-2024-4804: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-06 13:31:33,427 - steel_automation.core.validation - WARNING - Order SO-2025-3662: Steel grade 304SS should be Stainless Steel type, not Carbon Steel
+2025-08-06 13:31:33,427 - steel_automation.core.validation - WARNING - Order SO-2025-2421: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-06 13:31:33,428 - steel_automation.core.validation - WARNING - Order SO-2024-9609: Steel grade 409SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,430 - steel_automation.core.validation - WARNING - Order SO-2025-2943: Steel grade 430SS should be Stainless Steel type, not Tool Steel
+2025-08-06 13:31:33,430 - steel_automation.core.validation - WARNING - Order SO-2025-4762: Steel grade 304SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,430 - steel_automation.core.validation - WARNING - Order SO-2025-4762: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,430 - steel_automation.core.validation - WARNING - Order SO-2024-2653: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,431 - steel_automation.core.validation - WARNING - Order SO-2025-5508: Steel grade 430SS should be Stainless Steel type, not Galvanized
+2025-08-06 13:31:33,432 - steel_automation.core.validation - WARNING - Order SO-2024-7498: Steel grade 430SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,433 - steel_automation.core.validation - WARNING - Order SO-2024-6404: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,433 - steel_automation.core.validation - WARNING - Order SO-2025-4015: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,434 - steel_automation.core.validation - WARNING - Order SO-2024-1149: Steel grade 409SS should be Stainless Steel type, not Spring Steel
+2025-08-06 13:31:33,435 - steel_automation.core.validation - WARNING - Order SO-2024-4463: Steel grade 201SS should be Stainless Steel type, not Spring Steel
+2025-08-06 13:31:33,435 - steel_automation.core.validation - WARNING - Order SO-2024-7525: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,437 - steel_automation.core.validation - WARNING - Order SO-2024-9537: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items
+2025-08-06 13:31:33,439 - steel_automation.core.validation - WARNING - Order SO-2025-2211: Steel grade 316SS should be Stainless Steel type, not Tool Steel
+2025-08-06 13:31:33,439 - steel_automation.core.validation - WARNING - Order SO-2024-2791: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,440 - steel_automation.core.validation - WARNING - Order SO-2024-2901: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,442 - steel_automation.core.validation - WARNING - Order SO-2025-7703: Steel grade 316SS should be Stainless Steel type, not Tool Steel
+2025-08-06 13:31:33,442 - steel_automation.core.validation - WARNING - Order SO-2025-3755: Steel grade 304SS should be Stainless Steel type, not Spring Steel
+2025-08-06 13:31:33,443 - steel_automation.core.validation - WARNING - Order SO-2024-4882: Steel grade 201SS should be Stainless Steel type, not Alloy Steel
+2025-08-06 13:31:33,444 - steel_automation.core.validation - WARNING - Order SO-2024-5090: Rejected quality items must be Cancelled or require Rework
+2025-08-06 13:31:33,447 - steel_automation.core.validation - INFO - Validation completed: 105 valid, 83 invalid orders
+2025-08-06 13:31:33,447 - steel_automation.performance - INFO - Performance metrics: {'operation': 'data_validation', 'duration_seconds': 0.07534193992614746, 'records_processed': 188, 'records_per_second': 1393.6460901182568, 'memory_usage_mb': 101.765625, 'memory_delta': 0.703125}
+2025-08-06 13:31:33,447 - __main__ - INFO - Validation completed: 105 valid orders
+2025-08-06 13:31:33,447 - __main__ - INFO - Validation success rate: 55.9%
+2025-08-06 13:31:33,447 - __main__ - INFO - Phase 2: Processing validated steel orders...
+2025-08-06 13:31:33,447 - steel_automation.performance - INFO - Performance metrics: {'operation': 'data_processing', 'duration_seconds': 5.173683166503906e-05, 'records_processed': 105, 'records_per_second': 2029501.935483871, 'memory_usage_mb': 101.765625, 'memory_delta': 0.0}
+2025-08-06 13:31:33,447 - __main__ - INFO - Processing completed for 105 orders
+2025-08-06 13:31:33,447 - __main__ - INFO - Phase 3: Sending customer notifications...
+2025-08-06 13:31:33,447 - steel_automation.services.email_service - INFO - Starting to send 105 order confirmation emails
+2025-08-06 13:31:33,447 - steel_automation.services.email_service - INFO - Sending emails to 105 customers with valid email addresses
+2025-08-06 13:31:33,957 - steel_automation.services.email_service - WARNING - Email to david82@example.org - Attempt 1/3 failed: Simulated network timeout
+2025-08-06 13:31:34,075 - steel_automation.services.email_service - WARNING - Email to gcastaneda@example.org - Attempt 1/3 failed: Simulated network timeout
+2025-08-06 13:31:34,172 - steel_automation.services.email_service - WARNING - Email to maria47@example.com - Attempt 1/3 failed: Simulated network timeout
+2025-08-06 13:31:36,566 - steel_automation.services.email_service - WARNING - Email to thompsonnancy@example.org - Attempt 1/3 failed: Simulated network timeout
+2025-08-06 13:31:38,678 - steel_automation.services.email_service - INFO - Email sending completed in 5.23s
+2025-08-06 13:31:38,678 - steel_automation.services.email_service - INFO - Success rate: 100.0% (105/105)
+2025-08-06 13:31:38,680 - steel_automation.performance - INFO - Performance metrics: {'operation': 'email_processing', 'duration_seconds': 5.232676982879639, 'records_processed': 105, 'records_per_second': 20.066210917192247, 'memory_usage_mb': 80.421875, 'memory_delta': -21.34375}
+2025-08-06 13:31:38,680 - __main__ - INFO - Email notifications completed: 105 sent successfully
+2025-08-06 13:31:38,680 - __main__ - INFO - Phase 4: Generating reports...
+2025-08-06 13:31:38,681 - steel_automation.services.reporting - INFO - Generating comprehensive steel industry reports to reports/
+2025-08-06 13:31:38,706 - steel_automation.services.reporting - INFO - Generated order summary for 105 orders
+2025-08-06 13:31:38,713 - steel_automation.services.reporting - INFO - Generated production metrics
+2025-08-06 13:31:38,721 - steel_automation.services.reporting - INFO - Generated quality analysis
+2025-08-06 13:31:38,730 - steel_automation.services.reporting - INFO - Generated customer analytics
+2025-08-06 13:31:38,734 - steel_automation.services.reporting - INFO - Saved report steel_order_summary_20250806_133138 in 2 formats
+2025-08-06 13:31:38,734 - steel_automation.services.reporting - INFO - Saved report steel_production_metrics_20250806_133138 in 1 formats
+2025-08-06 13:31:38,735 - steel_automation.services.reporting - INFO - Saved report steel_quality_analysis_20250806_133138 in 1 formats
+2025-08-06 13:31:38,735 - steel_automation.services.reporting - INFO - Saved report steel_customer_analytics_20250806_133138 in 1 formats
+2025-08-06 13:31:38,736 - steel_automation.services.reporting - INFO - Saved report steel_system_performance_20250806_133138 in 1 formats
+2025-08-06 13:31:38,738 - steel_automation.services.reporting - INFO - Saved report steel_automation_summary_20250806_133138 in 1 formats
+2025-08-06 13:31:38,738 - steel_automation.services.reporting - INFO - Generated 7 report files
+2025-08-06 13:31:38,739 - steel_automation.performance - INFO - Performance metrics: {'operation': 'report_generation', 'duration_seconds': 0.05799698829650879, 'records_processed': 105, 'records_per_second': 120.69592241949871, 'memory_usage_mb': 88.4375, 'memory_delta': 8.0}
+2025-08-06 13:31:38,739 - __main__ - INFO - Reports generated: 7 files created
+2025-08-06 13:31:38,739 - __main__ - INFO - ============================================================
+2025-08-06 13:31:38,739 - __main__ - INFO - STEEL AUTOMATION COMPLETED SUCCESSFULLY
+2025-08-06 13:31:38,739 - __main__ - INFO - ============================================================
+2025-08-06 13:31:38,739 - __main__ - INFO - Orders processed: 105
+2025-08-06 13:31:38,739 - __main__ - INFO - Email success rate: 100.0%
+2025-08-06 13:31:38,739 - __main__ - INFO - Steel automation system shutdown

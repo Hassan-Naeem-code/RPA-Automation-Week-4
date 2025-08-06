@@ -1,0 +1,1149 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-08-06T13:31:38.736250",
+    "system_name": "Steel Industry Automation System",
+    "version": "1.0.0"
+  },
+  "executive_summary": {
+    "total_orders": 105,
+    "total_value": 1517282.3400000003,
+    "average_order_value": 14450.308000000003,
+    "completion_rate": 23.809523809523807,
+    "quality_rate": 48.57142857142857
+  },
+  "detailed_reports": {
+    "order_summary": {
+      "timestamp": "2025-08-06T13:31:38.681172",
+      "total_orders": 105,
+      "total_value": 1517282.3400000003,
+      "total_weight": 959178.17,
+      "average_order_value": 14450.308000000003,
+      "average_weight": 9135.030190476191,
+      "status_breakdown": {
+        "Rework Required": 16,
+        "Cancelled": 16,
+        "Pending": 14,
+        "In Production": 14,
+        "Delivered": 12,
+        "Hold": 12,
+        "Quality Check": 8,
+        "Ready": 8,
+        "Shipped": 5
+      },
+      "steel_grade_analysis": {
+        "201SS": {
+          "order_count": 1,
+          "total_value": 5571.13,
+          "average_value": 5571.13,
+          "total_weight": 9892.97,
+          "average_weight": 9892.97
+        },
+        "409SS": {
+          "order_count": 1,
+          "total_value": 8330.85,
+          "average_value": 8330.85,
+          "total_weight": 5385.27,
+          "average_weight": 5385.27
+        },
+        "A242": {
+          "order_count": 10,
+          "total_value": 302714.37,
+          "average_value": 30271.44,
+          "total_weight": 149736.04,
+          "average_weight": 14973.6
+        },
+        "A36": {
+          "order_count": 2,
+          "total_value": 13911.81,
+          "average_value": 6955.91,
+          "total_weight": 11695.03,
+          "average_weight": 5847.52
+        },
+        "A514": {
+          "order_count": 8,
+          "total_value": 79437.84,
+          "average_value": 9929.73,
+          "total_weight": 61828.35,
+          "average_weight": 7728.54
+        },
+        "A572-50": {
+          "order_count": 3,
+          "total_value": 45371.83,
+          "average_value": 15123.94,
+          "total_weight": 33103.33,
+          "average_weight": 11034.44
+        },
+        "A588": {
+          "order_count": 11,
+          "total_value": 133531.29,
+          "average_value": 12139.21,
+          "total_weight": 96844.57,
+          "average_weight": 8804.05
+        },
+        "A709-50": {
+          "order_count": 10,
+          "total_value": 134536.25,
+          "average_value": 13453.62,
+          "total_weight": 75837.37,
+          "average_weight": 7583.74
+        },
+        "A992": {
+          "order_count": 4,
+          "total_value": 61362.01,
+          "average_value": 15340.5,
+          "total_weight": 31813.08,
+          "average_weight": 7953.27
+        },
+        "Q235": {
+          "order_count": 10,
+          "total_value": 144864.77,
+          "average_value": 14486.48,
+          "total_weight": 99611.08,
+          "average_weight": 9961.11
+        },
+        "Q345": {
+          "order_count": 7,
+          "total_value": 120576.34,
+          "average_value": 17225.19,
+          "total_weight": 92640.84,
+          "average_weight": 13234.41
+        },
+        "S235": {
+          "order_count": 9,
+          "total_value": 166885.35,
+          "average_value": 18542.82,
+          "total_weight": 98794.31,
+          "average_weight": 10977.15
+        },
+        "S275": {
+          "order_count": 8,
+          "total_value": 66149.92,
+          "average_value": 8268.74,
+          "total_weight": 56823.34,
+          "average_weight": 7102.92
+        },
+        "S355": {
+          "order_count": 5,
+          "total_value": 44880.82,
+          "average_value": 8976.16,
+          "total_weight": 24970.67,
+          "average_weight": 4994.13
+        },
+        "S420": {
+          "order_count": 7,
+          "total_value": 131455.59,
+          "average_value": 18779.37,
+          "total_weight": 67725.1,
+          "average_weight": 9675.01
+        },
+        "S460": {
+          "order_count": 9,
+          "total_value": 57702.17,
+          "average_value": 6411.35,
+          "total_weight": 42476.82,
+          "average_weight": 4719.65
+        }
+      },
+      "production_line_utilization": {
+        "Line-D2": 16,
+        "Line-C2": 15,
+        "Line-B1": 13,
+        "Line-E1": 10,
+        "Line-E2": 10,
+        "Line-B2": 9,
+        "Line-D1": 9,
+        "Line-A2": 8,
+        "Line-C1": 8,
+        "Line-A1": 7
+      },
+      "quality_distribution": {
+        "A": 28,
+        "C": 25,
+        "Rework": 23,
+        "B": 23,
+        "Reject": 6
+      },
+      "top_customers": {
+        "Martin-Allen": {
+          "order_count": 1,
+          "total_value": 82487.43,
+          "total_weight": 36136.54
+        },
+        "Wilson Ltd": {
+          "order_count": 1,
+          "total_value": 60892.72,
+          "total_weight": 25024.03
+        },
+        "Washington, Allen and Gonzales": {
+          "order_count": 1,
+          "total_value": 59984.88,
+          "total_weight": 27054.46
+        },
+        "Johnson, Cohen and Roberson": {
+          "order_count": 1,
+          "total_value": 58926.3,
+          "total_weight": 24272.88
+        },
+        "Mckee, Gardner and Davenport": {
+          "order_count": 1,
+          "total_value": 48007.16,
+          "total_weight": 20526.67
+        },
+        "Carter, Armstrong and Farley": {
+          "order_count": 1,
+          "total_value": 43153.94,
+          "total_weight": 17871.57
+        },
+        "Frazier, Smith and Dominguez": {
+          "order_count": 1,
+          "total_value": 38468.82,
+          "total_weight": 16610.96
+        },
+        "Reynolds Inc": {
+          "order_count": 1,
+          "total_value": 37270.83,
+          "total_weight": 15906.77
+        },
+        "Reyes-Johnson": {
+          "order_count": 1,
+          "total_value": 37154.1,
+          "total_weight": 15870.36
+        },
+        "Howard, Evans and Jackson": {
+          "order_count": 1,
+          "total_value": 35122.53,
+          "total_weight": 18193.77
+        }
+      },
+      "warehouse_distribution": {
+        "WH-Reserve": 17,
+        "WH-Domestic": 16,
+        "WH-Central": 15,
+        "WH-South": 14,
+        "WH-East": 13,
+        "WH-North": 11,
+        "WH-West": 10,
+        "WH-Export": 9
+      }
+    },
+    "production_metrics": {
+      "timestamp": "2025-08-06T13:31:38.706678",
+      "production_overview": {
+        "Line-E1": {
+          "total_orders": 10,
+          "total_weight": 78477.52,
+          "total_value": 124515.78,
+          "average_order_size": 7847.752,
+          "quality_distribution": {
+            "Rework": 4,
+            "C": 4,
+            "B": 1,
+            "A": 1
+          },
+          "status_distribution": {
+            "Pending": 3,
+            "Quality Check": 2,
+            "Delivered": 2,
+            "Ready": 2,
+            "Rework Required": 1
+          },
+          "quality_rate": 20.0,
+          "completion_rate": 40.0
+        },
+        "Line-C2": {
+          "total_orders": 15,
+          "total_weight": 134549.57,
+          "total_value": 252536.19000000003,
+          "average_order_size": 8969.971333333333,
+          "quality_distribution": {
+            "A": 5,
+            "C": 4,
+            "Rework": 3,
+            "B": 2,
+            "Reject": 1
+          },
+          "status_distribution": {
+            "Rework Required": 4,
+            "Cancelled": 4,
+            "Hold": 2,
+            "Ready": 2,
+            "In Production": 1,
+            "Pending": 1,
+            "Shipped": 1
+          },
+          "quality_rate": 46.666666666666664,
+          "completion_rate": 20.0
+        },
+        "Line-B2": {
+          "total_orders": 9,
+          "total_weight": 90106.15000000001,
+          "total_value": 148606.61000000002,
+          "average_order_size": 10011.794444444446,
+          "quality_distribution": {
+            "A": 7,
+            "C": 2
+          },
+          "status_distribution": {
+            "Pending": 3,
+            "In Production": 2,
+            "Hold": 2,
+            "Rework Required": 1,
+            "Delivered": 1
+          },
+          "quality_rate": 77.77777777777779,
+          "completion_rate": 11.11111111111111
+        },
+        "Line-A2": {
+          "total_orders": 8,
+          "total_weight": 69112.29000000001,
+          "total_value": 95978.17,
+          "average_order_size": 8639.036250000001,
+          "quality_distribution": {
+            "Rework": 3,
+            "B": 3,
+            "C": 2
+          },
+          "status_distribution": {
+            "Rework Required": 3,
+            "In Production": 2,
+            "Quality Check": 1,
+            "Cancelled": 1,
+            "Delivered": 1
+          },
+          "quality_rate": 37.5,
+          "completion_rate": 12.5
+        },
+        "Line-C1": {
+          "total_orders": 8,
+          "total_weight": 99016.01000000001,
+          "total_value": 153011.78,
+          "average_order_size": 12377.001250000001,
+          "quality_distribution": {
+            "B": 3,
+            "Rework": 2,
+            "C": 1,
+            "A": 1,
+            "Reject": 1
+          },
+          "status_distribution": {
+            "Delivered": 2,
+            "Hold": 2,
+            "Pending": 2,
+            "In Production": 1,
+            "Cancelled": 1
+          },
+          "quality_rate": 50.0,
+          "completion_rate": 25.0
+        },
+        "Line-B1": {
+          "total_orders": 13,
+          "total_weight": 115103.75,
+          "total_value": 168442.91000000003,
+          "average_order_size": 8854.134615384615,
+          "quality_distribution": {
+            "A": 5,
+            "Rework": 4,
+            "C": 2,
+            "B": 2
+          },
+          "status_distribution": {
+            "Hold": 2,
+            "Delivered": 2,
+            "In Production": 2,
+            "Cancelled": 2,
+            "Quality Check": 2,
+            "Rework Required": 1,
+            "Ready": 1,
+            "Pending": 1
+          },
+          "quality_rate": 53.84615384615385,
+          "completion_rate": 23.076923076923077
+        },
+        "Line-D1": {
+          "total_orders": 9,
+          "total_weight": 61448.72,
+          "total_value": 71300.45000000001,
+          "average_order_size": 6827.635555555556,
+          "quality_distribution": {
+            "Reject": 3,
+            "Rework": 2,
+            "B": 2,
+            "A": 2
+          },
+          "status_distribution": {
+            "Cancelled": 3,
+            "Rework Required": 2,
+            "Pending": 1,
+            "Hold": 1,
+            "In Production": 1,
+            "Delivered": 1
+          },
+          "quality_rate": 44.44444444444444,
+          "completion_rate": 11.11111111111111
+        },
+        "Line-A1": {
+          "total_orders": 7,
+          "total_weight": 77520.59000000001,
+          "total_value": 158198.88,
+          "average_order_size": 11074.37,
+          "quality_distribution": {
+            "B": 3,
+            "C": 3,
+            "A": 1
+          },
+          "status_distribution": {
+            "Delivered": 2,
+            "Quality Check": 1,
+            "Shipped": 1,
+            "Hold": 1,
+            "Cancelled": 1,
+            "In Production": 1
+          },
+          "quality_rate": 57.14285714285714,
+          "completion_rate": 42.857142857142854
+        },
+        "Line-E2": {
+          "total_orders": 10,
+          "total_weight": 68605.15,
+          "total_value": 72127.16,
+          "average_order_size": 6860.514999999999,
+          "quality_distribution": {
+            "B": 4,
+            "C": 3,
+            "A": 1,
+            "Rework": 1,
+            "Reject": 1
+          },
+          "status_distribution": {
+            "Cancelled": 3,
+            "Pending": 2,
+            "Rework Required": 2,
+            "Quality Check": 1,
+            "Ready": 1,
+            "Shipped": 1
+          },
+          "quality_rate": 50.0,
+          "completion_rate": 20.0
+        },
+        "Line-D2": {
+          "total_orders": 16,
+          "total_weight": 165238.41999999998,
+          "total_value": 272564.41,
+          "average_order_size": 10327.401249999999,
+          "quality_distribution": {
+            "A": 5,
+            "Rework": 4,
+            "C": 4,
+            "B": 3
+          },
+          "status_distribution": {
+            "In Production": 4,
+            "Hold": 2,
+            "Ready": 2,
+            "Rework Required": 2,
+            "Shipped": 2,
+            "Cancelled": 1,
+            "Delivered": 1,
+            "Pending": 1,
+            "Quality Check": 1
+          },
+          "quality_rate": 50.0,
+          "completion_rate": 31.25
+        }
+      },
+      "overall_metrics": {
+        "total_orders": 105,
+        "completion_rate": 23.809523809523807,
+        "quality_rate": 48.57142857142857,
+        "average_order_value": 14450.308000000003,
+        "total_production_value": 1517282.3400000003,
+        "total_production_weight": 959178.17
+      }
+    },
+    "quality_analysis": {
+      "timestamp": "2025-08-06T13:31:38.713121",
+      "quality_overview": {
+        "total_orders": 105,
+        "quality_distribution": {
+          "A": 28,
+          "C": 25,
+          "Rework": 23,
+          "B": 23,
+          "Reject": 6
+        },
+        "quality_percentages": {
+          "A": 26.666666666666668,
+          "C": 23.809523809523807,
+          "Rework": 21.904761904761905,
+          "B": 21.904761904761905,
+          "Reject": 5.714285714285714
+        }
+      },
+      "quality_by_steel_grade": {
+        "A": {
+          "201SS": 0,
+          "409SS": 0,
+          "A242": 4,
+          "A36": 1,
+          "A514": 3,
+          "A572-50": 0,
+          "A588": 1,
+          "A709-50": 3,
+          "A992": 1,
+          "Q235": 3,
+          "Q345": 2,
+          "S235": 3,
+          "S275": 2,
+          "S355": 1,
+          "S420": 2,
+          "S460": 2
+        },
+        "B": {
+          "201SS": 1,
+          "409SS": 0,
+          "A242": 4,
+          "A36": 0,
+          "A514": 1,
+          "A572-50": 2,
+          "A588": 3,
+          "A709-50": 2,
+          "A992": 1,
+          "Q235": 0,
+          "Q345": 1,
+          "S235": 1,
+          "S275": 1,
+          "S355": 2,
+          "S420": 3,
+          "S460": 1
+        },
+        "C": {
+          "201SS": 0,
+          "409SS": 0,
+          "A242": 2,
+          "A36": 0,
+          "A514": 2,
+          "A572-50": 0,
+          "A588": 1,
+          "A709-50": 2,
+          "A992": 1,
+          "Q235": 3,
+          "Q345": 4,
+          "S235": 2,
+          "S275": 2,
+          "S355": 0,
+          "S420": 1,
+          "S460": 5
+        },
+        "Reject": {
+          "201SS": 0,
+          "409SS": 0,
+          "A242": 0,
+          "A36": 1,
+          "A514": 0,
+          "A572-50": 0,
+          "A588": 1,
+          "A709-50": 0,
+          "A992": 0,
+          "Q235": 2,
+          "Q345": 0,
+          "S235": 0,
+          "S275": 0,
+          "S355": 2,
+          "S420": 0,
+          "S460": 0
+        },
+        "Rework": {
+          "201SS": 0,
+          "409SS": 1,
+          "A242": 0,
+          "A36": 0,
+          "A514": 2,
+          "A572-50": 1,
+          "A588": 5,
+          "A709-50": 3,
+          "A992": 1,
+          "Q235": 2,
+          "Q345": 0,
+          "S235": 3,
+          "S275": 3,
+          "S355": 0,
+          "S420": 1,
+          "S460": 1
+        }
+      },
+      "quality_by_production_line": {
+        "A": {
+          "Line-A1": 1,
+          "Line-A2": 0,
+          "Line-B1": 5,
+          "Line-B2": 7,
+          "Line-C1": 1,
+          "Line-C2": 5,
+          "Line-D1": 2,
+          "Line-D2": 5,
+          "Line-E1": 1,
+          "Line-E2": 1
+        },
+        "B": {
+          "Line-A1": 3,
+          "Line-A2": 3,
+          "Line-B1": 2,
+          "Line-B2": 0,
+          "Line-C1": 3,
+          "Line-C2": 2,
+          "Line-D1": 2,
+          "Line-D2": 3,
+          "Line-E1": 1,
+          "Line-E2": 4
+        },
+        "C": {
+          "Line-A1": 3,
+          "Line-A2": 2,
+          "Line-B1": 2,
+          "Line-B2": 2,
+          "Line-C1": 1,
+          "Line-C2": 4,
+          "Line-D1": 0,
+          "Line-D2": 4,
+          "Line-E1": 4,
+          "Line-E2": 3
+        },
+        "Reject": {
+          "Line-A1": 0,
+          "Line-A2": 0,
+          "Line-B1": 0,
+          "Line-B2": 0,
+          "Line-C1": 1,
+          "Line-C2": 1,
+          "Line-D1": 3,
+          "Line-D2": 0,
+          "Line-E1": 0,
+          "Line-E2": 1
+        },
+        "Rework": {
+          "Line-A1": 0,
+          "Line-A2": 3,
+          "Line-B1": 4,
+          "Line-B2": 0,
+          "Line-C1": 2,
+          "Line-C2": 3,
+          "Line-D1": 2,
+          "Line-D2": 4,
+          "Line-E1": 4,
+          "Line-E2": 1
+        }
+      },
+      "quality_trends": {
+        "2025-07-07": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-07-08": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Reject": 1,
+          "Rework": 0
+        },
+        "2025-07-09": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-10": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-07-11": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Reject": 0,
+          "Rework": 2
+        },
+        "2025-07-12": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-13": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "Reject": 1,
+          "Rework": 1
+        },
+        "2025-07-14": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-15": {
+          "A": 0,
+          "B": 0,
+          "C": 2,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-16": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-17": {
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-18": {
+          "A": 3,
+          "B": 2,
+          "C": 2,
+          "Reject": 1,
+          "Rework": 2
+        },
+        "2025-07-19": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "Reject": 1,
+          "Rework": 1
+        },
+        "2025-07-20": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-07-21": {
+          "A": 4,
+          "B": 2,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-07-22": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-23": {
+          "A": 2,
+          "B": 1,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-24": {
+          "A": 1,
+          "B": 0,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-25": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-07-26": {
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-07-27": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-07-28": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-29": {
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 1
+        },
+        "2025-07-30": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-07-31": {
+          "A": 3,
+          "B": 1,
+          "C": 1,
+          "Reject": 1,
+          "Rework": 2
+        },
+        "2025-08-01": {
+          "A": 3,
+          "B": 1,
+          "C": 0,
+          "Reject": 1,
+          "Rework": 0
+        },
+        "2025-08-02": {
+          "A": 0,
+          "B": 2,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 2
+        },
+        "2025-08-03": {
+          "A": 2,
+          "B": 0,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 2
+        },
+        "2025-08-04": {
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-08-05": {
+          "A": 3,
+          "B": 1,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-08-06": {
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-08-07": {
+          "A": 1,
+          "B": 2,
+          "C": 0,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-08-08": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-08-09": {
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        },
+        "2025-08-10": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "Reject": 0,
+          "Rework": 0
+        }
+      },
+      "quality_issues": {
+        "total_problematic_orders": 29,
+        "reject_rate": 5.714285714285714,
+        "rework_rate": 21.904761904761905,
+        "issues_by_steel_grade": {
+          "A588": 6,
+          "Q235": 4,
+          "S275": 3,
+          "S235": 3,
+          "A709-50": 3,
+          "A514": 2,
+          "S355": 2,
+          "S460": 1,
+          "A992": 1,
+          "A36": 1,
+          "409SS": 1,
+          "A572-50": 1,
+          "S420": 1
+        },
+        "issues_by_production_line": {
+          "Line-D1": 5,
+          "Line-E1": 4,
+          "Line-D2": 4,
+          "Line-C2": 4,
+          "Line-B1": 4,
+          "Line-A2": 3,
+          "Line-C1": 3,
+          "Line-E2": 2
+        }
+      }
+    },
+    "customer_analytics": {
+      "timestamp": "2025-08-06T13:31:38.722101",
+      "customer_overview": {},
+      "top_customers_by_value": {
+        "Martin-Allen": {
+          "order_count": 1,
+          "total_value": 82487.43,
+          "avg_order_value": 82487.43,
+          "total_weight": 36136.54,
+          "avg_weight": 36136.54,
+          "quality_rate": 100.0
+        },
+        "Wilson Ltd": {
+          "order_count": 1,
+          "total_value": 60892.72,
+          "avg_order_value": 60892.72,
+          "total_weight": 25024.03,
+          "avg_weight": 25024.03,
+          "quality_rate": 100.0
+        },
+        "Washington, Allen and Gonzales": {
+          "order_count": 1,
+          "total_value": 59984.88,
+          "avg_order_value": 59984.88,
+          "total_weight": 27054.46,
+          "avg_weight": 27054.46,
+          "quality_rate": 100.0
+        },
+        "Johnson, Cohen and Roberson": {
+          "order_count": 1,
+          "total_value": 58926.3,
+          "avg_order_value": 58926.3,
+          "total_weight": 24272.88,
+          "avg_weight": 24272.88,
+          "quality_rate": 100.0
+        },
+        "Mckee, Gardner and Davenport": {
+          "order_count": 1,
+          "total_value": 48007.16,
+          "avg_order_value": 48007.16,
+          "total_weight": 20526.67,
+          "avg_weight": 20526.67,
+          "quality_rate": 100.0
+        },
+        "Carter, Armstrong and Farley": {
+          "order_count": 1,
+          "total_value": 43153.94,
+          "avg_order_value": 43153.94,
+          "total_weight": 17871.57,
+          "avg_weight": 17871.57,
+          "quality_rate": 0.0
+        },
+        "Frazier, Smith and Dominguez": {
+          "order_count": 1,
+          "total_value": 38468.82,
+          "avg_order_value": 38468.82,
+          "total_weight": 16610.96,
+          "avg_weight": 16610.96,
+          "quality_rate": 0.0
+        },
+        "Reynolds Inc": {
+          "order_count": 1,
+          "total_value": 37270.83,
+          "avg_order_value": 37270.83,
+          "total_weight": 15906.77,
+          "avg_weight": 15906.77,
+          "quality_rate": 0.0
+        },
+        "Reyes-Johnson": {
+          "order_count": 1,
+          "total_value": 37154.1,
+          "avg_order_value": 37154.1,
+          "total_weight": 15870.36,
+          "avg_weight": 15870.36,
+          "quality_rate": 0.0
+        },
+        "Howard, Evans and Jackson": {
+          "order_count": 1,
+          "total_value": 35122.53,
+          "avg_order_value": 35122.53,
+          "total_weight": 18193.77,
+          "avg_weight": 18193.77,
+          "quality_rate": 0.0
+        }
+      },
+      "top_customers_by_volume": {
+        "Adams, Zuniga and Wong": {
+          "order_count": 1,
+          "total_value": 9046.02,
+          "avg_order_value": 9046.02,
+          "total_weight": 7177.96,
+          "avg_weight": 7177.96,
+          "quality_rate": 100.0
+        },
+        "Medina, Ellison and Arias": {
+          "order_count": 1,
+          "total_value": 22050.39,
+          "avg_order_value": 22050.39,
+          "total_weight": 8886.88,
+          "avg_weight": 8886.88,
+          "quality_rate": 0.0
+        },
+        "Santos, Johnson and Mcdowell": {
+          "order_count": 1,
+          "total_value": 25143.59,
+          "avg_order_value": 25143.59,
+          "total_weight": 21638.57,
+          "avg_weight": 21638.57,
+          "quality_rate": 0.0
+        },
+        "Sanchez, Thompson and Moore": {
+          "order_count": 1,
+          "total_value": 20364.98,
+          "avg_order_value": 20364.98,
+          "total_weight": 14953.8,
+          "avg_weight": 14953.8,
+          "quality_rate": 0.0
+        },
+        "Sanchez Group": {
+          "order_count": 1,
+          "total_value": 34266.61,
+          "avg_order_value": 34266.61,
+          "total_weight": 14911.75,
+          "avg_weight": 14911.75,
+          "quality_rate": 100.0
+        },
+        "Reynolds Inc": {
+          "order_count": 1,
+          "total_value": 37270.83,
+          "avg_order_value": 37270.83,
+          "total_weight": 15906.77,
+          "avg_weight": 15906.77,
+          "quality_rate": 0.0
+        },
+        "Reyes-Johnson": {
+          "order_count": 1,
+          "total_value": 37154.1,
+          "avg_order_value": 37154.1,
+          "total_weight": 15870.36,
+          "avg_weight": 15870.36,
+          "quality_rate": 0.0
+        },
+        "Ramos PLC": {
+          "order_count": 1,
+          "total_value": 19406.6,
+          "avg_order_value": 19406.6,
+          "total_weight": 26154.09,
+          "avg_weight": 26154.09,
+          "quality_rate": 0.0
+        },
+        "Ramirez Group": {
+          "order_count": 1,
+          "total_value": 2811.0,
+          "avg_order_value": 2811.0,
+          "total_weight": 3883.99,
+          "avg_weight": 3883.99,
+          "quality_rate": 0.0
+        },
+        "Pugh, Henderson and Moon": {
+          "order_count": 1,
+          "total_value": 13245.12,
+          "avg_order_value": 13245.12,
+          "total_weight": 16781.27,
+          "avg_weight": 16781.27,
+          "quality_rate": 0.0
+        }
+      },
+      "customer_distribution": {
+        "total_customers": 105,
+        "avg_orders_per_customer": 1.0,
+        "avg_value_per_customer": 14450.308000000003,
+        "customer_value_distribution": {
+          "high_value": 21,
+          "medium_value": 63,
+          "low_value": 21
+        }
+      }
+    },
+    "system_performance": {
+      "timestamp": "2025-08-06T13:31:38.730978",
+      "validation_summary": {
+        "validation_stats": {
+          "total_records_validated": 188,
+          "valid_records": 105,
+          "invalid_records": 83,
+          "error_categories": {
+            "General": 94
+          }
+        },
+        "error_details": [
+          "Order SO-2024-9609: Steel grade 409SS should be Stainless Steel type, not Alloy Steel",
+          "Order SO-2025-2943: Steel grade 430SS should be Stainless Steel type, not Tool Steel",
+          "Order SO-2025-4762: Steel grade 304SS should be Stainless Steel type, not Alloy Steel",
+          "Order SO-2025-4762: Rejected quality items must be Cancelled or require Rework",
+          "Order SO-2024-2653: Rejected quality items must be Cancelled or require Rework",
+          "Order SO-2025-5508: Steel grade 430SS should be Stainless Steel type, not Galvanized",
+          "Order SO-2024-7498: Steel grade 430SS should be Stainless Steel type, not Alloy Steel",
+          "Order SO-2024-6404: Rejected quality items must be Cancelled or require Rework",
+          "Order SO-2025-4015: Rejected quality items must be Cancelled or require Rework",
+          "Order SO-2024-1149: Steel grade 409SS should be Stainless Steel type, not Spring Steel",
+          "Order SO-2024-4463: Steel grade 201SS should be Stainless Steel type, not Spring Steel",
+          "Order SO-2024-7525: Rejected quality items must be Cancelled or require Rework",
+          "Order SO-2024-9537: Rejected quality items must be Cancelled or require Rework; Cannot ship rejected or rework items",
+          "Order SO-2025-2211: Steel grade 316SS should be Stainless Steel type, not Tool Steel",
+          "Order SO-2024-2791: Rejected quality items must be Cancelled or require Rework",
+          "Order SO-2024-2901: Rejected quality items must be Cancelled or require Rework",
+          "Order SO-2025-7703: Steel grade 316SS should be Stainless Steel type, not Tool Steel",
+          "Order SO-2025-3755: Steel grade 304SS should be Stainless Steel type, not Spring Steel",
+          "Order SO-2024-4882: Steel grade 201SS should be Stainless Steel type, not Alloy Steel",
+          "Order SO-2024-5090: Rejected quality items must be Cancelled or require Rework"
+        ],
+        "error_categories": {
+          "General": 94
+        }
+      },
+      "email_statistics": {
+        "email_stats": {
+          "total_emails_sent": 105,
+          "successful_emails": 105,
+          "failed_emails": 0,
+          "processing_time": 5.230929851531982,
+          "errors": []
+        },
+        "performance_metrics": {
+          "emails_per_second": 20.072913034620154,
+          "success_rate": 100.0,
+          "failure_rate": 0.0
+        }
+      },
+      "data_processing": {
+        "total_orders_processed": 105,
+        "processing_date": "20250806_133138"
+      }
+    }
+  }
+}
